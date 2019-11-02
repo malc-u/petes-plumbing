@@ -1,0 +1,25 @@
+/*------------Navbar------------------*/
+.nav-item {
+    padding-left: 10px;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        padding: 10px 10px;
+    }
+}
+
+.nav-item:hover {
+    background-color: #CB200C;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .nav-item:hover {
+        border-radius: 20%;
+    }
+}
