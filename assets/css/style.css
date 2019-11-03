@@ -1,4 +1,18 @@
+/*------------Geberal------------------*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*------------Navbar------------------*/
+.logo {
+    width: 125px;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 250px;
+    }
+}
 .nav-item {
     text-transform: uppercase;
     padding-left: 10px;
@@ -29,10 +43,13 @@
 }
 
 /*------------Home Section------------------*/
+#home {
+    margin: 110px 0 0 0;
+}
 .home-container {
     background: url("../images/tap.jpg") no-repeat bottom right fixed;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
