@@ -113,44 +113,48 @@ html {
 }
 
 /* Services Section */
-.services-container {
-    background-color: #369;
-}
-.services-header {
-    color: #e53c37;
-}
-
-.services-container .section-header p {
-    margin: 40px 50px;
-    color: #fff;
+/* Added media to increase left and right margin for pararhaps on screens over 992px */
+#services .container-fluid .row .section-header p {
+    margin: 40px 20px;
+    color: #000;
 }
 
+@media (min-width: 992px) {
+    #services .container-fluid .row .section-header p {
+        margin: 40px 50px;
+    }
+}
+/* Added some extra space to services-column to push buttons down */
 .services-column {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
-.gas-services-header
- {
-    color:#fff;
+/* Aligned headers of the services offered to the centre of each column */
+.gas-services-header {
     text-align: center;
 }
-
+/* Increased size of icons from Fontawesome so make them stand out and adding some breathing space */
 .fa-fire-alt,
 .fa-fire,
 .fa-bath {
     margin: 10px;
     font-size: 150%;
 }
+/* Changed bulletpont to square and pull it inside to the centred list */
+.services-list {
+    list-style: square inside;
+    padding: 0;
+}
+/* Made a list stand out and aligned to the centre of the column */
+.services-list-item {
+    color: #000;
+    font-weight: 500;
+    padding: 3px 3px;
+    text-align: center;
+}
+/* Added buttons to allow user to jump straight to contact section or carry on browsing */
 .services-bottom-btn {
     padding: 5px 10px;
     margin: auto 10px;
     background-color: #e53c37;
 }
-.services-list {
-    list-style: square inside;
-}
 
-.services-list-item {
-    color: #fff;
-    padding: 3px 3px;
-    text-align: center;
-}
