@@ -153,10 +153,10 @@ html {
 
 
 .about-container {
-    background: url("../images/bath.jpg") bottom center fixed;
+    background: url("../images/sink.jpg") bottom center fixed;
     background-repeat: no-repeat;
     position: relative; 
-    min-height: 80vh;
+    min-height: 50vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -168,10 +168,15 @@ html {
 
 .about-header {
     color: #fff;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 400%;
 }
 .about-paragraph {
     padding: 0px;
     margin: 40px 20px;
+    background: #e53c37;
+    color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -192,13 +197,13 @@ html {
     width: 25%;
   }
   
-  /* Change background color of buttons on hover */
+/* Change background color of buttons on hover */
   .tablink:hover {
     background-color: transparent;
   }
   
   /* Set default styles for tab content */
-  .tabcontent {
+.tabcontent {
     color: white;
     display: none;
     padding: 20px 50px;
@@ -206,19 +211,23 @@ html {
   }
   
   /* Style each tab content individually */
-  #Name1 {
+#Name1 {
       background-color: transparent;
     }
-  #Name2 {
+#Name2 {
       background-color: transparent;
     }
-  #Name3 {
+#Name3 {
       background-color:transparent;
     }
-  #Name4 {
+#Name4 {
       background-color: transparent;
     }
 
-    #about a {
+#about a i.fa-facebook-square{
         color: #369;
+    }
+
+    #about a i.fa-google-plus-g {
+        color: #e53c37
     }
