@@ -153,10 +153,10 @@ html {
 
 
 .about-container {
-    background: url("../images/sink.jpg") bottom center fixed;
+    background: url("../images/shower.jpg") bottom center fixed;
     background-repeat: no-repeat;
     position: relative; 
-    min-height: 50vh;
+    min-height: 70vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -170,12 +170,11 @@ html {
     color: #fff;
     margin-top: 50px;
     font-weight: 700;
-    font-size: 400%;
 }
 .about-paragraph {
     padding: 0px;
     margin: 40px 20px;
-    background: gray;
+    background: rgba(51, 102, 153, 0.5);
     color: #fff;
 }
 
