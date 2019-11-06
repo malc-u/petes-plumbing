@@ -44,6 +44,32 @@ Initial wireframes for this project can be seen [here](https://drive.google.com/
 
 ## Deployment
 
+Deploying this page from GitHub repository to GitHub Pages was acheived by following these steps:
+1. Logging into GitHub
+2. Picking malc-u/petes-plumbing repository for the list of repositories
+3. Selecting Settings - from menu items on the top of the page (top, right hand corner)
+4. Scrolling dow to the GitHub Pages section
+5. Picking Master Branch from the "Source" drop-down menu in Github Pages (changing from the default "none" to master branch)
+6. Awaiting for the page to be refreshed and website to be deployed - this happens automatically when step 5 is actioned
+7. Scrolling back down to the GitHub Pages section to check/retrieve the link of newly deployed website
+
+### How to run this project locally
+
+To clone this project from GitHub following steps need to be taken:
+
+1. Follow this [link](https://github.com/malc-u/petes-plumbing) to the Project GitHub repository
+2. Click "Clone or download"(green button on the right hand side, just above the file list) - this will open "Clone with HTTPS" section
+3. Copy the clone URL for the repository from "Clone with HTTPS" section
+4. Open your local IDE
+5. Open Git Bash in your local IDE
+6. Change the current working directory to the location where you want the cloned directory to be
+7. Type git clone, and then paste the URL you copied in Step 3 - in this project the comant should be:
+
+	git clone https://github.com/malc-u/petes-plumbing.git
+
+8. Press Enter to create your local clone 
+
+Futher reading or help with cloning can be found on this GitHub Help [page](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 ## Credits
 
 ### Aknowledgements

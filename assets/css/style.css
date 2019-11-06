@@ -16,12 +16,13 @@ html {
 
 @media (min-width: 768px) {
     .logo {
-        width: 250px;
+        width: 230px;
     }
 }
 
 .navbar {
     padding: 0;
+    border: 0;
 }
 
 /* Added some padding to Nav links for breathing space on small screens */
