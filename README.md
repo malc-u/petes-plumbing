@@ -1,8 +1,10 @@
-# Pete's plumbing & gas Ltd
+# Pete's plumbing & gas Ltd 
+
+Deployed website can be found [here](https://malc-u.github.io/petes-plumbing/)
 
 ## Project purpose
 This is a website for a small plumbing & heating company in East Anglia. It is created to enhance company's visibility on the market by creating online presence. It will allow customers and potential customers to learn about services provided and convince them to choose this company over competition. 
-The website is dedicated mostly for individual clients.
+The website is dedicated mostly for individual clients. 
 
 #### External user’s goal:
 The site users are people planning upgrades and renovation of their homes in the future and/or individuals looking for services they require now. They all wish to learn more about company and services provided and possibly book an appoitment.
@@ -43,6 +45,7 @@ Initial wireframes for this project can be seen [here](https://drive.google.com/
 ## Testing 
 
 ## Deployment
+This project was developed using the Visual Studio Code IDE, committed to Git and pushed to GitHub.
 
 Deploying this page from GitHub repository to GitHub Pages was acheived by following these steps:
 1. Logging into GitHub
@@ -54,6 +57,7 @@ Deploying this page from GitHub repository to GitHub Pages was acheived by follo
 7. Scrolling back down to the GitHub Pages section to check/retrieve the link of newly deployed website
 
 ### How to run this project locally
+This project was developed using the Visual Studio Code IDE, committed to Git and pushed to GitHub.
 
 To clone this project from GitHub following steps need to be taken:
 
