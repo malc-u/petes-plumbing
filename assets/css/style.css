@@ -135,7 +135,7 @@ html {
 .fa-fire,
 .fa-bath {
     margin: 10px;
-    font-size: 150%;
+    font-size: 130%;
 }
 /* Changed bulletpont to square and pull it inside to the centred list */
 .services-list {
@@ -156,7 +156,7 @@ html {
     background-color: #e53c37;
 }
 /* ABOUT SECTION */
-
+/* Added parallax to beautify the page */
 .about-container {
     background: url("../images/shower.jpg") bottom center fixed;
     background-repeat: no-repeat;
@@ -170,13 +170,14 @@ html {
     align-items: center;
     justify-content: center;
 }
-
+/* Styled the header to add some color and breathng space*/
 .about-header {
     color: #e53c37;
     margin-top: 20px;
     font-weight: 700;
     font-size: 350%;
 }
+/* Styled paragraph & added media to add some background (make it easier to read) and breathng space*/
 .about-paragraph {
     padding: 0px;
     margin: 40px 20px;
@@ -189,6 +190,7 @@ html {
         margin: 40px 120px;
     }
 }
+
 /* Style the tab buttons */
 .tablink {
     background-color: transparent;
@@ -215,7 +217,7 @@ html {
     text-align: center;
   }
   
-  /* Style each tab content individually */
+  /* Style each tab content */
 #Name1,
 #Name2,
 #Name3,
@@ -223,7 +225,7 @@ html {
       background-color: transparent;
     }
 
-
+/*Styled social media icons and links*/
 #about a i.fa-facebook-square{
         color: #369;
         font-size: 25px;
@@ -235,4 +237,9 @@ html {
     }
 #about .about-container .row .btn-group-column {
     margin-top: 35px;
+}
+
+/*FAQ SECTION */
+#faq .container-fluid .row .section-header h1 {
+    color: #369;
 }
