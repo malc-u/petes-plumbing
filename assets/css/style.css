@@ -260,6 +260,9 @@ html {
     background-color: #fff;
     color: #369;
     font-weight: 600;
+    padding: 0;
+    margin: 3px 8px;
+    text-align: center;
 }
 
 .card-body {
