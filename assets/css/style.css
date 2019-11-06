@@ -1,4 +1,4 @@
-/* General */
+/* GENERAL STYLES */
 html {
     scroll-behavior: smooth;
 }
@@ -8,7 +8,7 @@ html {
     text-align: center;
 }
 
-/* Navbar */
+/* NAVBAR SECTION */
 /* Logo sze was adjusted to stop Nav button from moving underneath it on small screens thus always staying on the right */
 .logo {
     width: 125px;
@@ -51,7 +51,7 @@ html {
     color: white;
 }
 
-/* Home Section */
+/* HOME SECTION */
 /* Added top margin to home id to pull the section from underneath fixed navbar */
 #home {
     margin: 110px 0 0 0;
@@ -103,7 +103,11 @@ html {
     margin: auto 10px;
 }
 
-/* Services Section */
+/* SERVICES SECTION */
+/* Changed header color */
+#services .container-fluid .row .section-header h1 {
+    color: #369;
+}
 /* Added media to increase left and right margin for pararhaps on screens over 992px */
 #services .container-fluid .row .section-header p {
     margin: 40px 20px;
@@ -149,8 +153,7 @@ html {
     margin: auto 10px;
     background-color: #e53c37;
 }
-/* About Section */
-
+/* ABOUT SECTION */
 
 .about-container {
     background: url("../images/shower.jpg") bottom center fixed;
@@ -167,14 +170,15 @@ html {
 }
 
 .about-header {
-    color: #fff;
+    color: #e53c37;
     margin-top: 50px;
     font-weight: 700;
+    font-size: 350%;
 }
 .about-paragraph {
     padding: 0px;
     margin: 40px 20px;
-    background: rgba(51, 102, 153, 0.5);
+    background: rgba(229, 60, 55, 0.05);
     color: #fff;
 }
 
@@ -210,23 +214,21 @@ html {
   }
   
   /* Style each tab content individually */
-#Name1 {
-      background-color: transparent;
-    }
-#Name2 {
-      background-color: transparent;
-    }
-#Name3 {
-      background-color:transparent;
-    }
+#Name1,
+#Name2,
+#Name3,
 #Name4 {
       background-color: transparent;
     }
+
 
 #about a i.fa-facebook-square{
         color: #369;
     }
 
-    #about a i.fa-google-plus-g {
+#about a i.fa-google-plus-g {
         color: #e53c37
     }
+#about .about-container .row .btn-group-column {
+    margin-top: 35px;
+}
