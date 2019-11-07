@@ -108,6 +108,7 @@
 #services .row .section-header h1 {
     color: #369;
     text-align: center;
+    padding-top: 25px;
 }
 
 #services .row .section-header p {
@@ -247,6 +248,7 @@ and styled paragraph to change its properties to differ from ones in general sec
 #faq .row .section-header h1 {
     color: #369;
     text-align: center;
+    padding-top: 25px;
 }
 #faq .row .section-header p {
     color: #000;
@@ -274,4 +276,8 @@ and styled paragraph to change its properties to differ from ones in general sec
 .card-body {
     padding: 0;
     margin: 5px;
+}
+
+.card {
+    margin-top: 20px;
 }

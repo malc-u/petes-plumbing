@@ -23,3 +23,7 @@ function openName(clientName, elmnt, color) {
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
   
+  // Navbar collapsing on click 
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
