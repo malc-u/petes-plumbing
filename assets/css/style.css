@@ -1,19 +1,10 @@
-/* GENERAL STYLES */
-
+ /* GENERAL STYLES */
+ body {
+    background-repeat: no-repeat;
+  }
 /* section header paragraph  should look smiliar in all sections - 
 media applied to give some extra space on big bigger screens- bigger tablets and desktops */
-.section-header {
-    padding: 25px;
-    text-align: center;
-    margin: 40px 20px;
-}
 
-
-@media (min-width: 992px) {
-.section-header p {
-        margin: 20px 80px;
-    }
-}
 
 
 /* -------------- NAVBAR SECTION ----------------- */
@@ -28,20 +19,16 @@ media applied to give some extra space on big bigger screens- bigger tablets and
     }
 }
 
-.navbar {
-    padding: 0;
-    border: 0;
-}
 
 /* Added some padding to Nav links for breathing space on small screens */
 .nav-item {
     text-transform: uppercase;
-    padding-left: 10px;
+
 }
 
 @media (min-width: 992px) {
     .nav-item {
-        padding: 10px 10px;
+
     }
 }
 
@@ -63,14 +50,14 @@ media applied to give some extra space on big bigger screens- bigger tablets and
 .navbar-nav .nav-item:hover .nav-link {
     color: white;
 }
-
 /* -------------- HOME SECTION -------------- */
 
 /* Added parallax to beautify home page */
-.home-container {
+#home {
     background: url("../images/tap1.jpg") no-repeat bottom right fixed;
     position: relative;
     min-height: 100vh;
+    min-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,14 +112,23 @@ media applied to give some extra space on big bigger screens- bigger tablets and
 
 /* -------------- SERVICES SECTION --------------*/
 /* Styled header and styled paragraph to change its properties to differ from ones in general section */
-#services .container-fluid .row .section-header h1 {
+#services .row .section-header h1 {
     color: #369;
+    text-align: center;
 }
 
-#services .container-fluid .row .section-header p {
+#services .row .section-header p {
     color: #000;
     padding: 0;
+    text-align: center;
+    margin: 40px 20px;
 }
+
+@media (min-width: 992px) {
+    #services .row .section-header p {
+            margin: 20px 80px;
+        }
+    }
 
 /* Added some extra space to services-column to push buttons down */
 .services-column {
@@ -169,7 +165,7 @@ media applied to give some extra space on big bigger screens- bigger tablets and
 }
 /* -------------- ABOUT SECTION -------------- */
 /* Added parallax to beautify the page */
-.about-container {
+#about {
     background: url("../images/shower.jpg") bottom center fixed;
     background-repeat: no-repeat;
     position: relative; 
@@ -184,17 +180,26 @@ media applied to give some extra space on big bigger screens- bigger tablets and
 }
 /* Styled the header to add some color and breathng space 
 and styled paragraph to change its properties to differ from ones in general section*/
-#about .container-fluid .row .section-header h1{
+#about .row .section-header h1{
     color: #e53c37;
     margin-top: 20px;
     font-weight: 700;
+    text-align: center;
 }
 
-#about .container-fluid .row .section-header p{
+#about .row .section-header p {
     padding: 0px;
     background: rgba(229, 60, 55, 0.05);
     color: #fff;
+    text-align: center;
+    margin: 40px 20px;
 }
+
+@media (min-width: 992px) {
+    #about .row .section-header p {
+            margin: 20px 80px;
+        }
+    }
 
 /* Style the tab buttons */
 .tablink {
@@ -240,19 +245,28 @@ and styled paragraph to change its properties to differ from ones in general sec
         color: #e53c37;
         font-size: 25px;
     }
-#about .about-container .row .btn-group-column {
+#about .row .btn-group-column {
     margin-top: 35px;
 }
 
 /* -------------- FAQ SECTION -------------- */
 /* Styled header and styled paragraph to change its properties to differ from ones in general section */
-#faq .container-fluid .row .section-header h1 {
+#faq .row .section-header h1 {
     color: #369;
+    text-align: center;
 }
-#faq .container-fluid .row .section-header p {
+#faq .row .section-header p {
     color: #000;
     padding: 0;
+    text-align: center;
+    margin: 40px 20px;
 }
+
+@media (min-width: 992px) {
+    #faq .row .section-header p {
+            margin: 20px 80px;
+        }
+    }
 /* Styled cards look */
 .card-header,
 .card-footer {
