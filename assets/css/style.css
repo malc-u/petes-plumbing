@@ -298,3 +298,65 @@ and styled paragraph to change its properties to differ from ones in general sec
 .card {
     margin-top: 20px;
 }
+
+
+/* CONTACT SECTION */
+
+#contact {
+    background: url("../images/contact.jpg") no-repeat top right fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact .row {
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+}
+#contact .row .col-12 h1 {
+    color: #e53c37;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+}
+/* Contact details */
+.contact-details {
+   padding-top: 100px;
+}
+
+.item {
+    clear: both;
+    padding: 15px;
+    justify-content: left;
+    align-items: center;
+}
+
+.key,
+.value {
+    display: inline-block;
+    }
+
+.key {
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.value {
+    width: 60%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.key p {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
