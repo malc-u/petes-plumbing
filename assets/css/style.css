@@ -47,7 +47,7 @@
 
 /* Added parallax to beautify home page */
 #home {
-    background: url("../images/tap1.jpg") no-repeat bottom right fixed;
+    background: url("../images/peter.jpg") no-repeat center center fixed;
     position: relative;
     min-height: 100vh;
     min-width: 100%;
@@ -95,7 +95,7 @@
 /* Added buttons to allow user to jump straight to contact section or carry on browsing */
 .btn-group-column {
     text-align: center;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 .home-bottom-btn {
@@ -160,7 +160,7 @@
 /* -------------- ABOUT SECTION -------------- */
 /* Added parallax to beautify the page */
 #about {
-    background: url("../images/shower.jpg") bottom center fixed;
+    background: url("../images/tap1.jpg") no-repeat center right fixed;
     background-repeat: no-repeat;
     position: relative; 
     min-height: 70vh;
@@ -195,6 +195,11 @@ and styled paragraph to change its properties to differ from ones in general sec
         }
     }
 
+#about .row .col-12 h3 {
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
 /* Style the tab buttons */
 .tablink {
     background-color: transparent;
