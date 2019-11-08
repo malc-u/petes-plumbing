@@ -16,12 +16,14 @@
 .nav-item {
     text-transform: uppercase;
     padding-left: 10px;
+    border-bottom: 1px solid gray;
 
 }
 
 @media (min-width: 992px) {
     .nav-item {
         padding: 10px 10px;
+        border-bottom: none;
     }
 }
 
@@ -43,6 +45,16 @@
 .navbar-nav .nav-item:hover .nav-link {
     color: white;
 }
+
+/*Added and styled social buttons to navbar */
+.navbar-nav .nav-social-cold:hover .social {
+    color: #369;
+}
+
+.navbar-nav .nav-social-hot:hover .social {
+	color: #e53c37;
+}
+
 /* -------------- HOME SECTION -------------- */
 
 /* Added parallax to beautify home page */
