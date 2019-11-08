@@ -303,7 +303,7 @@ and styled paragraph to change its properties to differ from ones in general sec
 /* CONTACT SECTION */
 
 #contact {
-    background: url("../images/contact.jpg") no-repeat top right fixed;
+    background: url("../images/contact.jpg") no-repeat center right fixed;
     background-repeat: no-repeat;
     position: relative;
     min-height: 80vh;
@@ -323,13 +323,9 @@ and styled paragraph to change its properties to differ from ones in general sec
 #contact .row .col-12 h1 {
     color: #e53c37;
     text-align: center;
-    margin: 10px;
-    font-weight: 700;
+    padding-bottom: 15px;
 }
 /* Contact details */
-.contact-details {
-   padding-top: 100px;
-}
 
 .item {
     clear: both;
@@ -360,3 +356,29 @@ and styled paragraph to change its properties to differ from ones in general sec
     font-weight: 500;
 }
 
+/*Contact Form */
+.form-column {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}

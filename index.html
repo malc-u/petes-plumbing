@@ -256,10 +256,8 @@
 <!---------Contact Section--------->
 <section class="container-fluid" id="contact">
   <div class="row">
-    <div class="col-12">
-        <h1>Contact</h1>
-    </div>
-    <div class="col-12 col-md-6 contact-details">
+    <div class="col-12 col-md-6">
+      <h1>Contact</h1>
         <div class="item">
             <div class="key"><p>Adress:</p></div>
             <div class="value"><p>75 King Street, Felixstowe, IP11 9DY</p></div>
@@ -274,7 +272,22 @@
           </div>     
     </div>
     <div class="col-12 col-md-6 form-column">
-         
+        <h3 class="text-center">Do you want to hear from us?</h3>
+        <div class="center-form">
+            <form>
+              <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter name" required />
+              <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Enter email" required />
+              <input type="tel" name="phone" id="phonenumber" class="form-control" placeholder="Enter phone number" required />                      
+              <textarea rows="5"name="text-area" id="text-area" class="form-control" placeholder="What can we do for you? " required ></textarea> 
+              <div class="form-row text-center">
+                <div class="col">
+                    <button type="submit" class="btn btn-info">
+                      Send your request
+                    </button>
+                </div>
+              </div>
+            </form>
+        </div>  
     </div>
   </div>
 </section>
