@@ -1,8 +1,21 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: rgb(160,160,160);
+    background: linear-gradient(180deg, rgba(160,160,160,1) 0%, rgba(192,192,192,1) 100%);
+  }
+
 /* Added padding to these sections to allow navbar link to navigate to the beginning of each one */
 #services,
 #about,
 #faq {
     padding-top: 17vh;
+}
+
+#contact {
+    padding-top: 3vh;;
 }
 /* -------------- NAVBAR SECTION ----------------- */
 /* Logo sze was adjusted to stop Nav button from moving underneath it on small screens thus always staying on the right */
@@ -179,7 +192,7 @@
     background: url("../images/tap1.jpg") no-repeat center right fixed;
     background-repeat: no-repeat;
     position: relative; 
-    min-height: 100vh;
+    min-height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -307,7 +320,7 @@ and styled paragraph to change its properties to differ from ones in general sec
 /* CONTACT SECTION */
 
 #contact {
-    background: url("../images/contact.jpg") no-repeat center right fixed;
+    background: url("../images/contact.jpg") no-repeat center center fixed;
     background-repeat: no-repeat;
     position: relative;
     min-height: 80vh;
@@ -372,6 +385,10 @@ and styled paragraph to change its properties to differ from ones in general sec
     max-width: 80%;
 }
 
+.form-control {
+    margin-top: 4px;
+}
+
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -385,4 +402,53 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 80%;
     }
+}
+
+/* FOOTER SECTION */
+footer .row .col-12.col-md-4 {
+    margin: auto 0;
+}
+
+footer .row .col-12 p{
+    text-align: center;
+    font-size: smaller;
+}
+
+footer .social-media {
+    list-style-type: none;
+}
+footer .social-media .social-media-link {
+    display: inline;
+    margin: auto 10px;
+}
+
+footer .social-media .social-media-link a i {
+width: 30px;
+height: 30px;
+border-radius: 25%;
+text-align: center;
+padding: 12px 0;
+color: #fff;
+background-color: #000;
+vertical-align: middle;
+font-size: 13px;
+line-height: 7px;
+transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+}
+
+footer .social-media .social-media-link a i.fa-google-plus-g:hover {
+    color: #e53c37;
+    background-color: transparent;
+    font-size: 250%;
+    padding-top: 15px;
+}
+
+footer .social-media .social-media-link a i.fa-facebook-square:hover {
+    color: #369;
+    background-color: #fff;
+    font-size: 250%;
+    padding-top: 15px;
 }
