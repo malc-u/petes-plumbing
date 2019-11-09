@@ -1,10 +1,6 @@
+/*Added smooth scroll behaviour to improve user browsing experience*/
 html {
     scroll-behavior: smooth;
-  }
-
-  body {
-    background: rgb(160,160,160);
-    background: linear-gradient(180deg, rgba(160,160,160,1) 0%, rgba(192,192,192,1) 100%);
   }
 
 /* Added padding to these sections to allow navbar link to navigate to the beginning of each one */
@@ -15,7 +11,7 @@ html {
 }
 
 #contact {
-    padding-top: 3vh;;
+    padding-top: 10vh;;
 }
 /* -------------- NAVBAR SECTION ----------------- */
 /* Logo sze was adjusted to stop Nav button from moving underneath it on small screens thus always staying on the right */
@@ -80,10 +76,10 @@ html {
     background: url("../images/peter.jpg") no-repeat center center fixed;
     position: relative;
     min-height: 100vh;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +129,7 @@ html {
 }
 
 /* -------------- SERVICES SECTION --------------*/
-/* Styled header and styled paragraph to change its properties to differ from ones in general section */
+/* Styled header and styled paragraph to change its properties and to differ in this section */
 #services .row .section-header h1 {
     color: #369;
     text-align: center;
@@ -193,16 +189,16 @@ html {
     background-repeat: no-repeat;
     position: relative; 
     min-height: 80vh;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 /* Styled the header to add some color and breathng space 
-and styled paragraph to change its properties to differ from ones in general section*/
+and styled paragraph to change its properties to differ in ths section*/
 #about .row .section-header h1{
     color: #e53c37;
     margin-top: 20px;
@@ -278,7 +274,7 @@ and styled paragraph to change its properties to differ from ones in general sec
 }
 
 /* -------------- FAQ SECTION -------------- */
-/* Styled header and styled paragraph to change its properties to differ from ones in general section */
+/* Styled header and styled paragraph to change its properties */
 #faq .row .section-header h1 {
     color: #369;
     text-align: center;
@@ -296,6 +292,7 @@ and styled paragraph to change its properties to differ from ones in general sec
             margin: 20px 80px;
         }
     }
+
 /* Styled cards look */
 .card-header,
 .card-footer {
@@ -318,12 +315,12 @@ and styled paragraph to change its properties to differ from ones in general sec
 
 
 /* CONTACT SECTION */
-
+/* Added background picture and parallax to beautify the page */
 #contact {
     background: url("../images/contact.jpg") no-repeat center center fixed;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 80vh;
+    min-height: 60vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -332,6 +329,8 @@ and styled paragraph to change its properties to differ from ones in general sec
     align-items: center;
     justify-content: center;
 }
+
+/*Removed padding and margind to widen both columns on the page */
 #contact .row {
     padding: 0;
     margin: 0;
@@ -342,8 +341,9 @@ and styled paragraph to change its properties to differ from ones in general sec
     text-align: center;
     padding-bottom: 15px;
 }
-/* Contact details */
 
+/* Contact details */
+/*Styled these classes to display nicely and in  two separate "blocks"*/
 .item {
     clear: both;
     padding: 15px;
@@ -406,14 +406,16 @@ button[type="submit"] {
 
 /* FOOTER SECTION */
 footer .row .col-12.col-md-4 {
-    margin: auto 0;
+    margin: 0 0;
+    align-content: center;
+    background-color: #e0e0e0;
 }
 
 footer .row .col-12 p{
     text-align: center;
     font-size: smaller;
 }
-
+/*Added social media links that change look when hovered over*/
 footer .social-media {
     list-style-type: none;
 }
@@ -451,4 +453,12 @@ footer .social-media .social-media-link a i.fa-facebook-square:hover {
     background-color: #fff;
     font-size: 250%;
     padding-top: 15px;
+}
+
+footer .social-media .social-media-link a i.fa-phone:hover,
+footer .social-media .social-media-link a i.fa-envelope:hover {
+    font-size: 250%;
+    padding-top: 15px;
+    color: #000;
+    background-color: transparent;
 }
