@@ -1,7 +1,7 @@
 /*Added smooth scroll behaviour to improve user browsing experience*/
 html {
     scroll-behavior: smooth;
-  }
+}
 
 /* Added padding to these sections to allow navbar link to navigate to the beginning of each one */
 #services,
@@ -11,8 +11,9 @@ html {
 }
 
 #contact {
-    padding-top: 10vh;;
+    padding-top: 10vh;
 }
+
 /* -------------- NAVBAR SECTION ----------------- */
 /* Logo sze was adjusted to stop Nav button from moving underneath it on small screens thus always staying on the right */
 .logo {
@@ -21,17 +22,15 @@ html {
 
 @media (min-width: 768px) {
     .logo {
-        width: 250px;
+        width: 230px;
     }
 }
-
 
 /* Added some padding to Nav links for breathing space on small screens */
 .nav-item {
     text-transform: uppercase;
     padding-left: 10px;
     border-bottom: 1px solid gray;
-
 }
 
 @media (min-width: 992px) {
@@ -66,7 +65,7 @@ html {
 }
 
 .navbar-nav .nav-social-hot:hover .social {
-	color: #e53c37;
+    color: #e53c37;
 }
 
 /* -------------- HOME SECTION -------------- */
@@ -80,19 +79,27 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
+
 /* Added jumbotron to enhance main message on home page */
 .jumbotron {
     background-color: transparent;
     text-align: center;
 }
+
 /* Added media to allow the header to be smaller on phones and bigger on tablets and desktops */
 .jumbotron h1 {
     font-weight: bolder;
-    color:#fff;
+    color: #fff;
     margin-bottom: 25px;
     margin-top: 50px;
 }
@@ -100,7 +107,7 @@ html {
 @media (min-width: 768px) {
     .jumbotron h1 {
         font-weight: bolder;
-        color:#fff;
+        color: #fff;
         margin-bottom: 25px;
         margin-top: 50px;
         font-size: 400%;
@@ -111,6 +118,7 @@ html {
     font-weight: 700;
     margin: 10px;
 }
+
 /* Added badge class to emphasize the paragraph and make it more visible */
 .badge-primary {
     background-color: #e53c37;
@@ -145,18 +153,20 @@ html {
 
 @media (min-width: 992px) {
     #services .row .section-header p {
-            margin: 20px 80px;
-        }
+        margin: 20px 80px;
     }
+}
 
 /* Added some extra space to services-column to push buttons down */
 .services-column {
     margin-bottom: 20px;
 }
+
 /* Aligned headers of the services offered to the centre of each column */
 .gas-services-header {
     text-align: center;
 }
+
 /* Increased size of icons from Fontawesome so make them stand out and adding some breathing space */
 .fa-fire-alt,
 .fa-fire,
@@ -164,11 +174,13 @@ html {
     margin: 10px;
     font-size: 130%;
 }
+
 /* Changed bulletpont to square and pull it inside to the centred list */
 .services-list {
     list-style: square inside;
     padding: 0;
 }
+
 /* Made a list stand out and aligned to the centre of the column */
 .services-list-item {
     color: #000;
@@ -176,30 +188,39 @@ html {
     padding: 3px 3px;
     text-align: center;
 }
+
 /* Added buttons to allow user to jump straight to contact section or carry on browsing */
 .services-bottom-btn {
     padding: 5px 10px;
     margin: auto 10px;
     background-color: #e53c37;
 }
+
 /* -------------- ABOUT SECTION -------------- */
 /* Added parallax to beautify the page */
 #about {
     background: url("../images/tap1.jpg") no-repeat center right fixed;
     background-repeat: no-repeat;
-    position: relative; 
+    position: relative;
     min-height: 80vh;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
+
 /* Styled the header to add some color and breathng space 
 and styled paragraph to change its properties to differ in ths section*/
-#about .row .section-header h1{
+#about .row .section-header h1 {
     color: #e53c37;
     margin-top: 20px;
     font-weight: 700;
@@ -216,15 +237,16 @@ and styled paragraph to change its properties to differ in ths section*/
 
 @media (min-width: 992px) {
     #about .row .section-header p {
-            margin: 20px 80px;
-        }
+        margin: 20px 80px;
     }
+}
 
 #about .row .col-12 h3 {
     color: #fff;
     text-align: center;
     padding-top: 25px;
 }
+
 /* Style the tab buttons */
 .tablink {
     background-color: transparent;
@@ -236,39 +258,40 @@ and styled paragraph to change its properties to differ in ths section*/
     padding: 10px 16px;
     font-size: 15px;
     width: 25%;
-  }
-  
+}
+
 /* Change background color of buttons on hover */
-  .tablink:hover {
+.tablink:hover {
     background-color: transparent;
-  }
-  
-  /* Set default styles for tab content */
+}
+
+/* Set default styles for tab content */
 .tabcontent {
     color: white;
     display: none;
     padding: 10px 50px;
     text-align: center;
-  }
-  
-  /* Style each tab content */
+}
+
+/* Style each tab content */
 #Name1,
 #Name2,
 #Name3,
 #Name4 {
-      background-color: transparent;
-    }
+    background-color: transparent;
+}
 
 /*Styled social media icons and links*/
-#about a i.fa-facebook-square{
-        color: #369;
-        font-size: 25px;
-    }
+#about a i.fa-facebook-square {
+    color: #369;
+    font-size: 25px;
+}
 
 #about a i.fa-google-plus-g {
-        color: #e53c37;
-        font-size: 25px;
-    }
+    color: #e53c37;
+    font-size: 25px;
+}
+
 #about .row .btn-group-column {
     margin-top: 35px;
 }
@@ -280,6 +303,7 @@ and styled paragraph to change its properties to differ in ths section*/
     text-align: center;
     padding-top: 25px;
 }
+
 #faq .row .section-header p {
     color: #000;
     padding: 0;
@@ -289,9 +313,9 @@ and styled paragraph to change its properties to differ in ths section*/
 
 @media (min-width: 992px) {
     #faq .row .section-header p {
-            margin: 20px 80px;
-        }
+        margin: 20px 80px;
     }
+}
 
 /* Styled cards look */
 .card-header,
@@ -321,12 +345,15 @@ and styled paragraph to change its properties to differ in ths section*/
     background-repeat: no-repeat;
     position: relative;
     min-height: 60vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -336,6 +363,7 @@ and styled paragraph to change its properties to differ in ths section*/
     margin: 0;
     min-width: 100%;
 }
+
 #contact .row .col-12 h1 {
     color: #e53c37;
     text-align: center;
@@ -347,14 +375,18 @@ and styled paragraph to change its properties to differ in ths section*/
 .item {
     clear: both;
     padding: 15px;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
     justify-content: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .key,
 .value {
     display: inline-block;
-    }
+}
 
 .key {
     width: 30%;
@@ -407,38 +439,41 @@ button[type="submit"] {
 /* FOOTER SECTION */
 footer .row .col-12.col-md-4 {
     margin: 0 0;
+    -ms-flex-line-pack: center;
     align-content: center;
     background-color: #e0e0e0;
 }
 
-footer .row .col-12 p{
+footer .row .col-12 p {
     text-align: center;
     font-size: smaller;
 }
+
 /*Added social media links that change look when hovered over*/
 footer .social-media {
     list-style-type: none;
 }
+
 footer .social-media .social-media-link {
     display: inline;
     margin: auto 10px;
 }
 
 footer .social-media .social-media-link a i {
-width: 30px;
-height: 30px;
-border-radius: 25%;
-text-align: center;
-padding: 12px 0;
-color: #fff;
-background-color: #000;
-vertical-align: middle;
-font-size: 13px;
-line-height: 7px;
-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--webkit-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+    text-align: center;
+    padding: 12px 0;
+    color: #fff;
+    background-color: #000;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 7px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 footer .social-media .social-media-link a i.fa-google-plus-g:hover {

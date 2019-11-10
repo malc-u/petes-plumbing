@@ -11,13 +11,16 @@
 <title>Pete's plumbing & gas Ltd</title>
 </head>
 <body>
-<!---------Navbar--------->
+<!-- Navbar imported from Bootswatch -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#home"><img src="assets/images/small.png" class="logo" alt="logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- Company logo -->
+  <a class="navbar-brand" href="#home"><img src="assets/images/small.png" class="logo" alt="company logo"></a>
+  <!-- Toggler button for mobile phones-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
+  <!-- Navbar links with social media icons -->
   <div class="collapse navbar-collapse" id="navbarColor03">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item nav-item-cold">
@@ -36,282 +39,315 @@
         <a class="nav-link" href="#contact">Contact</a>
       </li>
       <li class="nav-item nav-social-hot">
-        <a class="nav-link social " href="https://goo.gl/maps/shH5b3bcmEjaUjEs7" target="_default"><i class="fab fa-google-plus-g"></i></a>
+        <a class="nav-link social " href="https://goo.gl/maps/shH5b3bcmEjaUjEs7" target="_blank"><i
+            class="fab fa-google-plus-g"></i></a>
       </li>
       <li class="nav-item nav-social-cold">
-        <a class="nav-link social" href="https://facebook.com/PlumberFelixstowe" target="_default"><i class="fab fa-facebook-square"></i></a>
+        <a class="nav-link social" href="https://facebook.com/PlumberFelixstowe" target="_blank"><i
+            class="fab fa-facebook-square"></i></a>
       </li>
     </ul>
   </div>
 </nav>
-<!---------Home Section--------->
+<!-- Home Section with company picture and statement -->
 <section class="container-fluid" id="home">
-    <div class="row">
-      <div class="col-12 jumbotron">
-        <h1>We do plumbing so you don't have to</h1>
-        <p><span class="badge-primary">Reliable | Affordable | Available</span></p>
-      </div>
-      <div class="col-12 btn-group-column">
-        <div class="btn-group" role="group" aria-label="Action buttons">
-            <form method="get" action="#services">
-              <button type="submit" class="btn btn-info home-bottom-btn">Check our services</button>
-            </form>
-            <form method="get" action="#contact">
-            <button type="submit" class="btn btn-info home-bottom-btn">Book free inspection now</button>
-            </form>
-          </div>
+  <div class="row">
+    <div class="col-12 jumbotron">
+      <h1>We do plumbing so you don't have to</h1>
+      <p><span class="badge-primary">Reliable | Affordable | Available</span></p>
+    </div>
+    <div class="col-12 btn-group-column">
+      <div class="btn-group" role="group" aria-label="Action buttons">
+        <form method="get" action="#services">
+          <button type="submit" class="btn btn-info home-bottom-btn">Check our services</button>
+        </form>
+        <form method="get" action="#contact">
+          <button type="submit" class="btn btn-info home-bottom-btn">Book free inspection now</button>
+        </form>
       </div>
     </div>
-</section> 
-<!---------Services Section--------->
+  </div>
+</section>
+<!-- Services Section -->
 <section class="container-fluid" id="services">
-    <div class="row">
-      <div class="col-12 section-header">
-        <h1>Don't worry - All can be fixed</h1>
-        <p>Problems with boilers and pipes do happen. 
-          Luckily we are here to get your problem fixed as soon as possible.
-          We provide services in 3 following areas (this includes installations, repairs, adjustments etc.)
-          </p>
-      </div>
-      <div class="col-12 col-md-4 services-column">
-        <h3 class="gas-services-header text-info"><i class="fas fa-fire-alt"></i>Heating</h3>
-        <ul class="services-list">
-          <li class="services-list-item">Boilers</li>
-          <li class="services-list-item">Radiators and pipework</li>
-          <li class="services-list-item">TRVs</li>
-          <li class="services-list-item">Powerflushing</li>
-          <li class="services-list-item">Smart thermostats (incl. Nest)</li>
-        </ul>
+  <div class="row">
+    <div class="col-12 section-header">
+      <h1>Don't worry - All can be fixed</h1>
+      <p>Problems with boilers and pipes do happen.
+        Luckily we are here to get your problem fixed as soon as possible.
+        We provide services in 3 following areas (this includes installations, repairs, adjustments etc.)
+      </p>
+    </div>
+    <div class="col-12 col-md-4 services-column">
+      <h3 class="gas-services-header text-info"><i class="fas fa-fire-alt"></i>Heating</h3>
+      <ul class="services-list">
+        <li class="services-list-item">Boilers</li>
+        <li class="services-list-item">Radiators and pipework</li>
+        <li class="services-list-item">TRVs</li>
+        <li class="services-list-item">Powerflushing</li>
+        <li class="services-list-item">Smart thermostats (incl. Nest)</li>
+      </ul>
 
-      </div>
-      <div class="col-12 col-md-4 services-column">
-        <h3 class="gas-services-header text-info"><i class="fas fa-bath"></i>Plumbing</h3>
-        <ul class="services-list">
-            <li class="services-list-item">Sinks, dishwashers and washing machines</li>
-            <li class="services-list-item">Baths, basins & vanity units</li>
-            <li class="services-list-item">Shower cabins and enclosures</li>
-            <li class="services-list-item">Water softeners</li>
-            <li class="services-list-item">Stop taps</li>
-          </ul>
-      </div>
-      <div class="col-12 col-md-4 services-column">
-        <h3 class="gas-services-header text-info"><i class="fas fa-fire"></i>Gas</h3>
-        <ul class="services-list">
-            <li class="services-list-item">Landlord Safety Certificates</li>
-            <li class="services-list-item">Fires</li>
-            <li class="services-list-item">Hobs</li>
-            <li class="services-list-item">Ovens & cookers</li>
-            <li class="services-list-item">Water heaters</li>
-          </ul>
+    </div>
+    <div class="col-12 col-md-4 services-column">
+      <h3 class="gas-services-header text-info"><i class="fas fa-bath"></i>Plumbing</h3>
+      <ul class="services-list">
+        <li class="services-list-item">Sinks, dishwashers and washing machines</li>
+        <li class="services-list-item">Baths, basins & vanity units</li>
+        <li class="services-list-item">Shower cabins and enclosures</li>
+        <li class="services-list-item">Water softeners</li>
+        <li class="services-list-item">Stop taps</li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-4 services-column">
+      <h3 class="gas-services-header text-info"><i class="fas fa-fire"></i>Gas</h3>
+      <ul class="services-list">
+        <li class="services-list-item">Landlord Safety Certificates</li>
+        <li class="services-list-item">Fires</li>
+        <li class="services-list-item">Hobs</li>
+        <li class="services-list-item">Ovens & cookers</li>
+        <li class="services-list-item">Water heaters</li>
+      </ul>
 
-      </div>
-      <div class="col-12 btn-group-column">      
-        <div class="btn-group" role="group" aria-label="Action buttons">
-          <form method="get" action="#about">
-            <button type="submit" class="btn btn-info services-bottom-btn">Check our revievs</button>
-          </form>
-          <form method="get" action="#contact">
-            <button type="submit" class="btn btn-info services-bottom-btn">Book free inspection now</button>
-          </form>
-        </div>
+    </div>
+    <div class="col-12 btn-group-column">
+      <div class="btn-group" role="group" aria-label="Action buttons">
+        <form method="get" action="#about">
+          <button type="submit" class="btn btn-info services-bottom-btn">Check our revievs</button>
+        </form>
+        <form method="get" action="#contact">
+          <button type="submit" class="btn btn-info services-bottom-btn">Book free inspection now</button>
+        </form>
       </div>
     </div>
+  </div>
 </section>
-<!---------About Section--------->
+<!-- About Section -->
 <section class="container-fluid" id="about">
-    <div class="row">
-      <div class="col-12 section-header">
-        <h1>We drain your pipes not your bank account</h1>
-        <p>We are qualified to work safely and legally on gas appliances. 
-          <strong>Our Gas Safe Register - 545699.</strong>
-          We are fully trained and skilled, providing an excellent service and doing
-          everything to reach the best possible level of customer satisfaction.
-          You can be sure that you will be treated 100% professionally.
-        </p>
-      </div>
-      <div class="col-12">
-        <h3>Our customers about us:</h3>
-        <div id="Name1" class="tabcontent">
-            <p>"I have used Petes plumbing services a number of times, wouldn’t use any other plumber ...... 
-              recently had a problem with “Nest” installation - Pete came out twice to “re-educate” two oap,s 
-              in 21st century technology before discovering on 3rd visit that there was a problem with a 
-              valve not operating correctly causing rads to go cold - he spent quite a bit of time correcting fault, 
-              nothing seemed too much trouble. Texted next morning to see if everything ok, we informed him 
-              he had made two oaps very toasty! Would highly recommend, very reasonable prices, 
-              calls when he says he will........ a find."
-              <a href="https://facebook.com/PlumberFelixstowe"><i class="fab fa-facebook-square"></i></a></p>
-          </div>
-            
-        <div id="Name2" class="tabcontent">
-            <p>"Just had Pete in to service the boiler. It took about 45 minutes and he was very thorough, 
-              clean and tidy. He even cleaned the internals for us and left us with a Gas Safe service 
-              record showing everything he had checked. definitely use again."
-              <a href="https://goo.gl/maps/XSi3eg9eLMDzBwLr9"><i class="fab fa-google-plus-g"></i></a></p> 
-        </div>
-            
-        <div id="Name3" class="tabcontent">
-            <p> "Pete came out when he said he would and gave us a quote for a repair and a new boiler, 
-              his prices are very competitive. Pete is very professional and very friendly. 
-              definitely recommend him everytime. we've already booked our gas fires in for a 
-              service later in the year.."
-              <a href="https://facebook.com/PlumberFelixstowe"><i class="fab fa-facebook-square"></i></a></p>
-        </div>
-            
-        <div id="Name4" class="tabcontent">
-            <p>"Excellent service after being let down badly by another plumber. Pete is brilliant... Prompt... 
-              Very good value... Friendly and knowledgeable .. Recommend thoroughly will be using again without hesitation."
-              <a href="https://goo.gl/maps/UoGQfSjk2WtzQAnD8"><i class="fab fa-google-plus-g"></i></a></p>
-        </div>
-            
-        <button class="tablink" onclick="openName('Name1', this, 'rgba(229, 60, 55, 0.5)')" id="defaultOpen">Jan E.</button>
-        <button class="tablink" onclick="openName('Name2', this, 'rgba(229, 60, 55, 0.5)')">Jon Y.</button>
-        <button class="tablink" onclick="openName('Name3', this, 'rgba(229, 60, 55, 0.5)')">Linda B.</button>
-        <button class="tablink" onclick="openName('Name4', this, 'rgba(229, 60, 55, 0.5)')">Lisa D.</button>    
+  <div class="row">
+    <div class="col-12 section-header">
+      <h1>We drain your pipes not your bank account</h1>
+      <p>We are qualified to work safely and legally on gas appliances.
+        <strong>Our Gas Safe Register - 545699.</strong>
+        We are fully trained and skilled, providing an excellent service and doing
+        everything to reach the best possible level of customer satisfaction.
+        You can be sure that you will be treated 100% professionally.
+      </p>
+    </div>
+    <div class="col-12">
+      <h3>Our customers about us:</h3>
+      <div id="Name1" class="tabcontent">
+        <p>"I have used Petes plumbing services a number of times, wouldn’t use any other plumber ......
+          recently had a problem with “Nest” installation - Pete came out twice to “re-educate” two oap,s
+          in 21st century technology before discovering on 3rd visit that there was a problem with a
+          valve not operating correctly causing rads to go cold - he spent quite a bit of time correcting fault,
+          nothing seemed too much trouble. Texted next morning to see if everything ok, we informed him
+          he had made two oaps very toasty! Would highly recommend, very reasonable prices,
+          calls when he says he will........ a find."
+          <a href="https://facebook.com/PlumberFelixstowe"><i class="fab fa-facebook-square"></i></a></p>
       </div>
 
-      <div class="col-12 btn-group-column">
-        <div class="btn-group" role="group" aria-label="Action buttons">
-            <form method="get" action="#faq">
-              <button type="submit" class="btn btn-info home-bottom-btn">Check FAQ</button>
-            </form>
-            <form method="get" action="#contact">
-            <button type="submit" class="btn btn-info home-bottom-btn">Book free inspection now</button>
-            </form>
-          </div>
+      <div id="Name2" class="tabcontent">
+        <p>"Just had Pete in to service the boiler. It took about 45 minutes and he was very thorough,
+          clean and tidy. He even cleaned the internals for us and left us with a Gas Safe service
+          record showing everything he had checked. definitely use again."
+          <a href="https://goo.gl/maps/XSi3eg9eLMDzBwLr9"><i class="fab fa-google-plus-g"></i></a></p>
+      </div>
+
+      <div id="Name3" class="tabcontent">
+        <p> "Pete came out when he said he would and gave us a quote for a repair and a new boiler,
+          his prices are very competitive. Pete is very professional and very friendly.
+          definitely recommend him everytime. we've already booked our gas fires in for a
+          service later in the year.."
+          <a href="https://facebook.com/PlumberFelixstowe"><i class="fab fa-facebook-square"></i></a></p>
+      </div>
+
+      <div id="Name4" class="tabcontent">
+        <p>"Excellent service after being let down badly by another plumber. Pete is brilliant... Prompt...
+          Very good value... Friendly and knowledgeable .. Recommend thoroughly will be using again without hesitation."
+          <a href="https://goo.gl/maps/UoGQfSjk2WtzQAnD8"><i class="fab fa-google-plus-g"></i></a></p>
+      </div>
+
+      <button class="tablink" onclick="openName('Name1', this, 'rgba(229, 60, 55, 0.5)')" id="defaultOpen">Jan
+        E.</button>
+      <button class="tablink" onclick="openName('Name2', this, 'rgba(229, 60, 55, 0.5)')">Jon Y.</button>
+      <button class="tablink" onclick="openName('Name3', this, 'rgba(229, 60, 55, 0.5)')">Linda B.</button>
+      <button class="tablink" onclick="openName('Name4', this, 'rgba(229, 60, 55, 0.5)')">Lisa D.</button>
+    </div>
+
+    <div class="col-12 btn-group-column">
+      <div class="btn-group" role="group" aria-label="Action buttons">
+        <form method="get" action="#faq">
+          <button type="submit" class="btn btn-info home-bottom-btn">Check FAQ</button>
+        </form>
+        <form method="get" action="#contact">
+          <button type="submit" class="btn btn-info home-bottom-btn">Book free inspection now</button>
+        </form>
       </div>
     </div>
+  </div>
 </section>
-<!---------FAQ Section--------->
+<!-- FAQ Section -->
 <section class="container-fluid" id="faq">
-    <div class="row">
-      <div class="col-12 section-header">
-        <h1>We provide peace of mind</h1>
-        <p>These are 3 most frequently asked questions that we get from our customers. 
-          They are all related to emergency situations that can be very stressful and we thought providing 
-          advice on how to get a situation under control can be quite useful. Please see below what to do if 
-          you come across any of these 3.
-           </p>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card border-info mb-3"">
-          <div class="card-header"><h4>Gas leak?</h4></div>
-          <div class="card-body">
-            <h5 class="card-title">Follow these steps:</h5>
-            <p class="card-text">
-                <ol>
-                    <li>Open doors & windows</li>
-                    <li>Don't smoke, use naked flame or electrical appliances incl. lights</li>
-                    <li>Leave the property</li>
-                    <li>Then...</li>
-                  </ol>
-            </p>
-          </div>
-          <div class="card-footer"><i class="fas fa-phone"></i> Call us on <strong>07527 855 770</strong> 
-            <br>or 0800 111 999</div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card border-info mb-3">
-          <div class="card-header"><h4>Water leak from mains?</h4></div>
-          <div class="card-body">
-            <h5 class="card-title">Follow these steps:</h5>
-            <p class="card-text">
-              <ol>
-                <li>Place a bucket under the leak if possible</li>
-                <li>Turn off stop tap - usually found under kitchen sink, in downstairs bathroom or utility room</li>
-                <li>Open all taps to drain remaining water from the pipes</li>
-                <li>Then...</li>
-              </ol>
-            </p>
-          </div>
-          <div class="card-footer"><i class="fas fa-phone"></i> Call us on <strong>07527 855 770</strong></div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card border-info mb-3">
-          <div class="card-header"><h4>Central heating leak?</h4></div>
-          <div class="card-body">
-            <h5 class="card-title">Follow these steps:</h5>
-            <p class="card-text">
-                <ol>
-                    <li>Place a bucket under the leak if possible</li>
-                    <li>Turn off stop tap - usually found under kitchen sink, in downstairs bathroom or utility room</li>
-                    <li>Turn off boiler and/or immersion heater</li>
-                    <li>Then...</li>
-                  </ol>
-            </p>
-          </div>
-          <div class="card-footer"><i class="fas fa-phone"></i> Call us on <strong>07527 855 770</strong></div>
-        </div>
-      </div>
-      <div class="col-12 btn-group-column">      
-          <div class="btn" role="group" aria-label="Action button">
-            <form method="get" action="#contact">
-              <button type="submit" class="btn btn-info services-bottom-btn">Book free inspection now</button>
-            </form>
-          </div>
-        </div>
+  <div class="row">
+    <div class="col-12 section-header">
+      <h1>We provide peace of mind</h1>
+      <p>These are 3 most frequently asked questions that we get from our customers.
+        They are all related to emergency situations that can be very stressful and we thought providing
+        advice on how to get a situation under control can be quite useful. Please see below what to do if
+        you come across any of these 3.
+      </p>
     </div>
+    <div class="col-12 col-md-4">
+      <div class="card border-info mb-3">
+        <div class="card-header">
+          <h4>Gas leak?</h4>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Follow these steps:</h5>
+          <div class="card-text">
+            <ol>
+              <li>Open doors & windows</li>
+              <li>Don't smoke, use naked flame or electrical appliances incl. lights</li>
+              <li>Leave the property</li>
+              <li>Then...</li>
+            </ol>
+          </div>
+        </div>
+        <div class="card-footer"><i class="fas fa-phone"></i> Call us on <strong>07527 855 770</strong>
+          <br>or 0800 111 999
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card border-info mb-3">
+        <div class="card-header">
+          <h4>Water leak from mains?</h4>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Follow these steps:</h5>
+          <div class="card-text">
+            <ol>
+              <li>Place a bucket under the leak if possible</li>
+              <li>Turn off stop tap - usually found under kitchen sink, in downstairs bathroom or utility room</li>
+              <li>Open all taps to drain remaining water from the pipes</li>
+              <li>Then...</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer"><i class="fas fa-phone"></i> Call us on <strong>07527 855 770</strong>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card border-info mb-3">
+        <div class="card-header">
+          <h4>Central heating leak?</h4>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Follow these steps:</h5>
+          <div class="card-text">
+            <ol>
+              <li>Place a bucket under the leak if possible</li>
+              <li>Turn off stop tap - usually found under kitchen sink, in downstairs bathroom or utility room</li>
+              <li>Turn off boiler and/or immersion heater</li>
+              <li>Then...</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer"><i class="fas fa-phone"></i> Call us on <strong>07527 855 770</strong>
+      </div>
+
+    </div>
+    <div class="col-12 btn-group-column">
+      <div class="btn" role="group" aria-label="Action button">
+        <form method="get" action="#contact">
+          <button type="submit" class="btn btn-info services-bottom-btn">Book free inspection now</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
-<!---------Contact Section--------->
+<!-- Contact Section -->
 <section class="container-fluid" id="contact">
   <div class="row">
     <div class="col-12 col-md-6">
       <h1>Contact</h1>
-          <div class="item">
-            <div class="key"><p>Phone:</p></div>
-            <div class="value"><p>07527 855 770</p></div>
-          </div>
-          <div class="item">
-              <div class="key"><p>Email:</p></div>
-              <div class="value"><p>petesplumbing@mail.com</p></div>
-          </div>
-          <div class="item">
-              <div class="key"><p>Adress:</p></div>
-              <div class="value"><p>75 King Street, Felixstowe, IP11 9DY</p></div>
-            </div>     
+      <div class="item">
+        <div class="key">
+          <p>Phone:</p>
+        </div>
+        <div class="value">
+          <p>07527 855 770</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="key">
+          <p>Email:</p>
+        </div>
+        <div class="value">
+          <p>petesplumbing@mail.com</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="key">
+          <p>Adress:</p>
+        </div>
+        <div class="value">
+          <p>75 King Street, Felixstowe, IP11 9DY</p>
+        </div>
+      </div>
     </div>
     <div class="col-12 col-md-6 form-column">
-        <h3 class="text-center">Do you want to hear from us?</h3>
-        <div class="center-form">
-            <form>
-              <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter name" required />
-              <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Enter email" required />
-              <input type="tel" name="phone" id="phonenumber" class="form-control" placeholder="Enter phone number" required />                      
-              <textarea rows="5"name="text-area" id="text-area" class="form-control" placeholder="What can we do for you? " required ></textarea> 
-              <div class="form-row text-center">
-                <div class="col">
-                    <button type="submit" class="btn btn-info">
-                      Send your request
-                    </button>
-                </div>
-              </div>
-            </form>
-        </div>  
+      <h3 class="text-center">Do you want to hear from us?</h3>
+      <div class="center-form">
+        <form>
+          <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter name" required />
+          <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Enter email" required />
+          <input type="tel" name="phone" id="phonenumber" class="form-control" placeholder="Enter phone number"
+            required />
+          <textarea rows="5" name="text-area" id="text-area" class="form-control" placeholder="What can we do for you? "
+            required></textarea>
+          <div class="form-row text-center">
+            <div class="col">
+              <button type="submit" class="btn btn-info">
+                Send your request
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
+<!-- Footer Section -->
 <footer class="container-fluid">
   <div class="row">
-    <div class="col-12 col-md-4"><p>Company registered in England and Wales - 10586067
-      <br>Registered address: 75 King Street, Felixstowe, IP11 9DY
-    </p></div>
-    <div class="col-12 col-md-4"> 
+    <div class="col-12 col-md-4">
+      <p>Company registered in England and Wales - 10586067
+        <br>Registered address: 75 King Street, Felixstowe, IP11 9DY
+      </p>
+    </div>
+    <div class="col-12 col-md-4">
       <ul class="social-media">
-      <li class="social-media-link">
-      <a  href="https://goo.gl/maps/shH5b3bcmEjaUjEs7" target="_default"><i class="fab fa-google-plus-g"></i></a>
-      </li>
-      <li class="social-media-link"><a href="https://facebook.com/PlumberFelixstowe" target="_default"><i class="fab fa-facebook-square"></i></a>
-      </li>
-      <li class="social-media-link"><a href="tel:0447527855770"><i class="fas fa-phone"></i></a>
-      </li>
-      <li class="social-media-link"><a href="mailto:petesplumbing@mail.com" target="_default"><i class="fas fa-envelope"></i></a>
-      </li>
+        <li class="social-media-link">
+          <a href="https://goo.gl/maps/shH5b3bcmEjaUjEs7" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+        </li>
+        <li class="social-media-link"><a href="https://facebook.com/PlumberFelixstowe" target="_blank"><i
+              class="fab fa-facebook-square"></i></a>
+        </li>
+        <li class="social-media-link"><a href="tel:0447527855770"><i class="fas fa-phone"></i></a>
+        </li>
+        <li class="social-media-link"><a href="mailto:petesplumbing@mail.com" target="_blank"><i
+              class="fas fa-envelope"></i></a>
+        </li>
       </ul>
     </div>
-    <div class="col-12 col-md-4"><p>© 2019 Copyright: MalC-U - all rights reserved</p></div>
+    <div class="col-12 col-md-4">
+      <p>© 2019 Copyright: MalC-U - all rights reserved</p>
+    </div>
   </div>
-
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>

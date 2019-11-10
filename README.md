@@ -32,7 +32,10 @@ Although there is a contact form within this page it will not work as there are 
 The front end of this website, ie. fonts, cards etc were imported into this project from Bootswatch theme [Journal](https://bootswatch.com/journal/).
 
 ### Existing features
-
+- Navigation bar - fixed and responsive
+- Logo - clicked navigates to the home/top page
+- Social media links in the navigation bar - clicked open another tab with business' social media pages where reviews are cleraly visible
+- 
 
 
 
@@ -41,7 +44,7 @@ The front end of this website, ie. fonts, cards etc were imported into this proj
 ## Technologies & tools used
 - HTML
 - CSS
-- [Bootstrap](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/) - for structuring the layout of the website and mobile first design
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE for writing the code
 - [Git](https://git-scm.com/) - installed on the local machine and integrated with Visual Studio Code
 - Visual Studio Code built in terminal - to stage and commit all changes and push them to remote repository
@@ -50,6 +53,14 @@ The front end of this website, ie. fonts, cards etc were imported into this proj
 - imported Java Script - for review tabs functionality and for navbar collapse function
 - [Tiny Jpg](https://tinyjpg.com/)- used to compress the pictures for better user experience
 - Rapid tables - [RGB Color Code Chart](https://www.rapidtables.com/web/color/RGB_Color.html) - for colors matching and adjusting
+- [Font Awesome](https://fontawesome.com/)- for sourcing social media and gas,plumbing & heating icons/favicons
+- [The W3C Markup validation service](https://validator.w3.org/) - for HTML validation
+- [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - for CSS validation
+- [Autoprefixer](https://autoprefixer.github.io/) - for vendor prefixes control in CSS
+- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)extension in Visual Studio Code - for beautifying HTML and CSS
+- [Pexels](https://www.pexels.com/) free stock photos- for sourcing 2 out of 3 background pictures on the website 
+- [Open Office Calc](https://www.openoffice.org/product/calc.html) - for creating wireframes
+- [Google Drive](https://www.google.com/drive/) - for hosting wireframes
 
 
 ## Testing 
