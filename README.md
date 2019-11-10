@@ -34,10 +34,21 @@ The front end of this website, ie. fonts, cards etc were imported into this proj
 ### Existing features
 - Navigation bar - fixed and responsive
 - Logo - clicked navigates to the home/top page
-- Social media links in the navigation bar - clicked open another tab with business' social media pages where reviews are cleraly visible
-- 
-
-
+- Social media links in the navigation bar - clicked open another tab with business' social media pages where reviews are clearly visible
+- Slogan/head word on each section of the page presenting business in more detail
+- Home page/Welcome picture - picture of actual person that will meet customers on the job - adding credibility to the business 
+- Button [Book free inspection now] on the bottom of each section of this website - takes users that wish to get in touch with company directly to the contact section
+- Additional button on the bootom of each section of this website allowing customers to scroll to the next section to find out more about the company
+- Services grouped in 3 main fields - to allow website user to find what company is offering easier
+- Link to Gas Safe Register page in About section - advises that company is legitimate and can legally work with gas applicances - Gas Safe Register number clickable
+- Reviews - 4 recent ones-  grouped and displayed when Tab Header is clicked - About section
+- Reviews - presented with Facebook or Google logos that are clickable and linked to either exact review - for Google, or review page - for Facebook
+- FAQ section advises what to do in emergency situation with end step being call to action for a website user - phone number provided
+- Phone icon/favicon in FAQ section - clickable - gets users directly to phone call screen with company number already pre-entered
+- Contact section - presents phone number and emails address as well as contact form allowing website users to choose for the business to get in touch with them
+- Footer - provides legal info of the company as well as links to company's social media
+- Clickable phone icon - in the footer section - that gets users directly to phone call screen with company number already pre-entered
+- Clickable email icon - in the footer section - thath gets users directly to their default email application in order to get in touch with the company
 
 ### Potential features to implement later
 
