@@ -27,20 +27,30 @@ Taking this into consideartion this website is designed to assure them about pro
 Initial wireframes for this project can be seen [here](https://drive.google.com/file/d/1C37b299Da8XG6eMeLSVfByFkFlap9qhu/view?usp=sharing)
 
 ## Functionality
+This project utilises Bootstrap framework and Bootswatch Journal theme as a base to create one/scrolling page with Mobile first approach. This website is within the mandatory guidelines. It is written in HTML and CSS, however some Java Script was added to enhance the user experience. It is a single scrolling page with 5 separate page areas with navigation bar and footer. 
+Although there is a contact form within this page it will not work as there are no back end fuctions incorporated in the code.
+The front end of this website, ie. fonts, cards etc were imported into this project from Bootswatch theme [Journal](https://bootswatch.com/journal/).
 
 ### Existing features
-- Navigation bar - fixed and responsive
+
+
 
 
 ### Potential features to implement later
 
-## Technologies used
+## Technologies & tools used
 - HTML
 - CSS
 - [Bootstrap](https://getbootstrap.com/)
-- [Git](https://git-scm.com/) - for version control
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE for writing the code
-- 
+- [Git](https://git-scm.com/) - installed on the local machine and integrated with Visual Studio Code
+- Visual Studio Code built in terminal - to stage and commit all changes and push them to remote repository
+- [GitHub](https://github.com/)- for version control and for hosting deployed website
+- Google Chrome developer tools - for testing the page throught the develompent process
+- imported Java Script - for review tabs functionality and for navbar collapse function
+- [Tiny Jpg](https://tinyjpg.com/)- used to compress the pictures for better user experience
+- Rapid tables - [RGB Color Code Chart](https://www.rapidtables.com/web/color/RGB_Color.html) - for colors matching and adjusting
+
 
 ## Testing 
 
