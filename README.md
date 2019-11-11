@@ -53,11 +53,16 @@ The front end of this website, ie. fonts, cards etc were imported into this proj
 - FAQ section advises what to do in emergency situation with end step being call to action for a website user - phone number provided
 - Phone icon/favicon in FAQ section - clickable - gets users directly to phone call screen with company number already pre-entered
 - Contact section - presents phone number and emails address as well as contact form allowing website users to choose for the business to get in touch with them
+- Contact form has got all fields set as required - allows cutomer to provide all data required by the business to get in touch with them regarding booking free inspection etc.
 - Footer - provides legal info of the company as well as links to company's social media
 - Clickable phone icon - in the footer section - that gets users directly to phone call screen with company number already pre-entered
 - Clickable email icon - in the footer section - thath gets users directly to their default email application in order to get in touch with the company
 
 ### Potential features to implement later
+- portfolio of jobs copleted
+- back end functions to the contact form
+- Captcha function to the contact form for better protection
+- blog that would be updated regularly with tips and how-to's making website more interesting and inciting customers to return or even share the page with friends and family
 
 ## Technologies & tools used
 - HTML
@@ -82,6 +87,30 @@ The front end of this website, ie. fonts, cards etc were imported into this proj
 
 
 ## Testing 
+
+- [The W3C Markup validation service](https://validator.w3.org/) - automated testing of HTML in index file that pointed out few errors that were corrected 
+- [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - automated testing of CSS in style file - no errors found
+
+Manually tested:
+- all links in the navigation bar tak user to relevant section
+- logo click in the navigation bar takes user to the welcome/home page
+- social media links in the navigation bar when clicked open new tab with relevant social media in them
+- Check our services button (welcome/home page) takes users to services section
+- Book free inspection now (welcome/home page) when clicked takes user to Contact section
+- Check our reviews button (Services section) takes user to About section
+- Book free inspection now (Services section) when clicked takes user to Contact section
+- Link assigned to Gas Safe Register number 545699 (About section) when clicked opens new tab with company membership details on Gas Safe Register website
+- tabs with first name and surname initial in each tab (About section) when clicked present user with a review from this customer as well as link to the relevat social media (hidden under favicon/icon)
+- Favicon/icon of Google in the review  (About section) when clicked opens new tab with relevant review
+- Favicon/icon of Facebook in the review (About section) when clicked opens new tab with company's Facebook account where review list is clearly presented
+- Check FAQ button (About section) when clicked takes user to FAQ section
+- Book free inspection now (About section) when clicked takes user to Contact section
+- Phone favicon/icon in the card (FAQ section) when clicked on a mobile phone takes user to mobile phone's call application with company numer already entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
+- Book free inspection now (FAQ section) when clicked takes user to Contact section
+- All contact form fields are set as required so when form is completed with missing information user is prompted to fill in required fields
+- Links to social media (Footer section) when clicked open new tab with relevant company's social media pages
+- Link under phone favicon/icon (Footer section) when clicked on a mobile phone takes user to mobile phone's call application with company numer already entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
+- Link under envelope favicon/icon (Footer section) when clicked takes user to their default email application
 
 ## Deployment
 This project was developed using the Visual Studio Code IDE, committed to Git and pushed to GitHub.
