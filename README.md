@@ -17,11 +17,18 @@ Vast majority of the users will be individuals who require plumbing and heating 
 Page users will be researching "which" company they are going to choose to carry out their planned investment.
 
 Taking this into consideartion this website is designed to assure them about professionalism and affordability (this confirmed in the reviews and gas safe memebership). 
+
 #### User stories
-- 
--
--
--
+- website user wants to have easy & efficient way of navigating to each part of website (nagivation bar)
+- website user wants to connect with the company - by being itroduced to the people they are potentially going to meet when they decide to purchase services
+- website user wants to have easy access to list of services provided by the company
+- website user wants to be assured/ presented that the company staff is professional, appriopriatly trained & a member of professional bodies
+- website user wants to have access to customer reviews to find out past customers' opinions and information about services that they were provided by the company
+- website user wants to have more that 1 way of contacting the company - ie. phone number, email addres and/or contact form
+- website user wants to have easy way of reaching company's social media to read reviews of to start following the company etc.
+- website user wants to have easy access to contact section/ contact options from each section of the website
+- website user wants to be given advice/answer to frequently asked questions
+- returning website user wants to have easy access to contact options via link directly from navigation bar or home web section
 
 #### Wireframes 
 Initial wireframes for this project can be seen [here](https://drive.google.com/file/d/1C37b299Da8XG6eMeLSVfByFkFlap9qhu/view?usp=sharing)
