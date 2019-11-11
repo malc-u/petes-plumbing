@@ -28,6 +28,7 @@ Taking this into consideartion this website is designed to assure them about pro
 - website user wants to have easy way of reaching company's social media to read reviews of to start following the company etc.
 - website user wants to have easy access to contact section/ contact options from each section of the website
 - website user wants to be given advice/answer to frequently asked questions
+- website user that relies on audio description/screen readers wants to have descriptions inbuilt in the website
 - returning website user wants to have easy access to contact options via link directly from navigation bar or home web section
 
 #### Wireframes 
@@ -36,7 +37,7 @@ Initial wireframes for this project can be seen [here](https://drive.google.com/
 ## Functionality
 This project utilises Bootstrap framework and Bootswatch Journal theme as a base to create one/scrolling page with Mobile first approach. This website is within the mandatory guidelines. It is written in HTML and CSS, however some Java Script was added to enhance the user experience. It is a single scrolling page with 5 separate page areas with navigation bar and footer. 
 Although there is a contact form within this page it will not work as there are no back end fuctions incorporated in the code.
-The front end of this website, ie. fonts, cards etc were imported into this project from Bootswatch theme [Journal](https://bootswatch.com/journal/).
+Some functions of the front end of this website, ie. fonts, cards etc were imported into this project from Bootswatch theme [Journal](https://bootswatch.com/journal/).
 
 ### Existing features
 - Navigation bar - fixed and responsive
@@ -57,9 +58,10 @@ The front end of this website, ie. fonts, cards etc were imported into this proj
 - Footer - provides legal info of the company as well as links to company's social media
 - Clickable phone icon - in the footer section - that gets users directly to phone call screen with company number already pre-entered
 - Clickable email icon - in the footer section - thath gets users directly to their default email application in order to get in touch with the company
+- All links described for audio description/screen reading purposes
 
 ### Potential features to implement later
-- portfolio of jobs copleted
+- portfolio of jobs completed
 - back end functions to the contact form
 - Captcha function to the contact form for better protection
 - blog that would be updated regularly with tips and how-to's making website more interesting and inciting customers to return or even share the page with friends and family
@@ -84,6 +86,7 @@ The front end of this website, ie. fonts, cards etc were imported into this proj
 - [Pexels](https://www.pexels.com/) free stock photos- for sourcing 2 out of 3 background pictures on the website 
 - [Open Office Calc](https://www.openoffice.org/product/calc.html) - for creating wireframes
 - [Google Drive](https://www.google.com/drive/) - for hosting wireframes
+- [NVDA - NV Access](https://www.nvaccess.org/) - for screen reading 
 
 
 ## Testing 
@@ -111,6 +114,7 @@ Manually tested:
 - Links to social media (Footer section) when clicked open new tab with relevant company's social media pages
 - Link under phone favicon/icon (Footer section) when clicked on a mobile phone takes user to mobile phone's call application with company numer already entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
 - Link under envelope favicon/icon (Footer section) when clicked takes user to their default email application
+- Audio description/screen reading tested via NVDA app - descriptions added and/or amended
 
 ## Deployment
 This project was developed using the Visual Studio Code IDE, committed to Git and pushed to GitHub.
@@ -143,5 +147,10 @@ To clone this project from GitHub following steps need to be taken:
 
 Futher reading or help with cloning can be found on this GitHub Help [page](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 ## Credits
+Navbar collapsing on click - thanks to jQuery posted by [Zim developer](https://stackoverflow.com/users/171456/zim) [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
+Tab headers used for reviews found [here](https://www.w3schools.com/howto/howto_js_tab_header.asp)
+Photo on welcome/home page taken by Pete's plumbing & gas Ltd
+Photo on About section taken from [Pexels](https://www.pexels.com/@skitterphoto)
+Photo on Contact section taken from [Pexels](https://www.pexels.com/@pixabay)
 
 ### Aknowledgements
