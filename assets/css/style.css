@@ -269,8 +269,23 @@ and styled paragraph to change its properties to differ in ths section*/
 .tabcontent {
     color: white;
     display: none;
-    padding: 10px 50px;
-    text-align: center;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 15px;
+    height: 65%;
+}
+
+@media (min-width: 768px) {
+    .tabcontent {
+        color: white;
+        display: none;
+        padding: 10px 50px;
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 15px;
+        height: 50%;
+    }
 }
 
 /* Style each tab content */
