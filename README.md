@@ -10,21 +10,21 @@ The website is dedicated mostly for individual clients.
 The site users are people planning upgrades and renovation of their homes in the future and/or individuals looking for services they require now. They all wish to learn more about company and services provided and possibly book an appoitment or hear back from the company.
 
 #### Site owner's goal:
-The business owner wants to inform potential clients about the services and convince them to chose their servies over ones provided by the competition.
+The business owner wants to inform potential clients about the services and convince them to chose their services over ones provided by the competition.
 
 ## UX
-Vast majority of the users will be individuals who require plumbing and heating services in near future. People visiting this page will not be looking for ideas or asking themselves a question "if" they are going to go ahead with the planned investment. In plumbing & heating industry this is mostly checked on pages like Pintrest etc. where ideas can be looked up. 
+Vast majority of users will be individuals who require plumbing and heating services in near future. People visiting this page will not be looking for ideas or asking themselves a question "if" they are going to go ahead with the planned investment. In plumbing & heating industry this is mostly checked on pages like Pintrest etc. where ideas can be looked up. 
 Page users will be researching "which" company they are going to choose to carry out their planned investment.
 
 Taking this into consideartion this website is designed to assure them about professionalism and affordability (this confirmed in the reviews, gas safe memebership and free inspections provided by the company).  
-Welcome page contains a picture of company's plumber/gas engineer at work - which enhances trust in our company, especially to returning customers that will recognize the person is the person that visited them. 
-Color scheme was purposly limited to enhance red and blue that are commonly regarded as associated with plumbing and/or hot and cold water.
+Welcome page contains a picture of company's plumber/gas engineer at work - which enhances trust in the company, especially to returning customers that will recognize the person and will instantly know it is the person that visited them. 
+Color scheme was intentionally limited to enhance red and blue that are commonly regarded as associated with plumbing and/or hot and cold water.
 
 #### User stories
 - website user wants to have easy & efficient way of navigating to each part of website (nagivation bar)
 - website user wants to connect with the company - by being itroduced to the people they are potentially going to meet when they decide to purchase services
 - website user wants to have easy access to list of services provided by the company
-- website user wants to be assured/ presented that the company staff is professional, appriopriatly trained & a member of professional bodies
+- website user wants to be assured/ presented that the company staff is professional, appropriately trained & a member of professional bodies
 - website user wants to have access to customer reviews to find out past customers' opinions and information about services that they were provided by the company
 - website user wants to have more that 1 way of contacting the company - ie. phone number, email addres and/or contact form
 - website user wants to have easy way of reaching company's social media to read reviews of to start following the company etc.
@@ -39,7 +39,6 @@ Initial wireframes for this project can be seen [here](https://drive.google.com/
 ## Functionality
 This project utilises Bootstrap framework and Bootswatch Journal theme as a base to create one/scrolling page with Mobile first approach. This website is within the mandatory guidelines. It is written in HTML and CSS, however some Java Script was added to enhance the user experience. It is a single scrolling page with 5 separate page areas with navigation bar and footer. 
 Although there is a contact form within this page it will not work as there are no back end fuctions incorporated in the code.
-Some functions of the front end of this website, ie. fonts, cards etc were imported into this project from Bootswatch theme [Journal](https://bootswatch.com/journal/).
 
 ### Existing features
 - Navigation bar - fixed and responsive
@@ -80,11 +79,12 @@ Some functions of the front end of this website, ie. fonts, cards etc were impor
 - imported Java Script - for review tabs functionality and for navbar collapse function
 - [Tiny Jpg](https://tinyjpg.com/)- used to compress the pictures for better user experience
 - Rapid tables - [RGB Color Code Chart](https://www.rapidtables.com/web/color/RGB_Color.html) - for colors matching and adjusting
+- [Journal](https://bootswatch.com/journal/) them from Bootswatch - for some functions of the front end of this website, ie. fonts, cards etc.
 - [Font Awesome](https://fontawesome.com/)- for sourcing social media and gas,plumbing & heating icons/favicons
 - [The W3C Markup validation service](https://validator.w3.org/) - for HTML validation
 - [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - for CSS validation
 - [Autoprefixer](https://autoprefixer.github.io/) - for vendor prefixes control in CSS
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)extension in Visual Studio Code - for beautifying HTML and CSS
+- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) extension in Visual Studio Code - for beautifying HTML and CSS
 - [Pexels](https://www.pexels.com/) free stock photos- for sourcing 2 out of 3 background pictures on the website 
 - [Open Office Calc](https://www.openoffice.org/product/calc.html) - for creating wireframes
 - [Google Drive](https://www.google.com/drive/) - for hosting wireframes
@@ -95,12 +95,12 @@ Some functions of the front end of this website, ie. fonts, cards etc were impor
 
 ## Testing 
 
-### Automated testing
+#### Automated testing
 - [The W3C Markup validation service](https://validator.w3.org/) - automated testing of HTML in index file that pointed out few errors that were corrected 
 - [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - automated testing of CSS in style file - no errors found
 
-### Manual testing
-All features have been manually tested on desktops, tablets and laptops. I used Chrome Dev Tools on evvery stage of the project as well as a number of web browsers after the site deployment. These were:  Chrome, Opera, Firefox, Ghostery mobile app.
+#### Manual testing
+All features have been manually tested on desktops, tablets and laptops. I used Chrome Dev Tools on every stage of the project as well as a number of web browsers after the site deployment. These were:  Chrome, Opera, Microsoft Edge, Firefox, Ghostery mobile app.
 
 Manually tested:
 - all links in the navigation bar tak user to relevant section
@@ -166,12 +166,12 @@ The content of this page was entirely written by myself and consulted with the c
 6. Fonts, some styling, buttons etc were imported from [Journal](https://bootswatch.com/journal/) theme on Bootswatch
 
 ### Aknowledgements
-I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret) for his knowledge and listeing to my 
+I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret) for his knowledge and listening to my 
 ideas as well as suggesting what could possibly be added to improve my project. Also for his help with Visual Studio Code - how to best utilize its features and extensions.
 
 Huge thanks to all people involved in creating helpful content that can be found online ie. [Brad Traversy](https://github.com/bradtraversy), especially for his [Git crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc) and all participants and creators of [Stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) & [Positronx](https://www.positronx.io/)
 
 Big thank you to [Code Institute](https://codeinstitute.net/) tutors for amazing course content that is very helpful in understanding the concept of HTML and CSS and to students current and past for sharing their work and ideas on Slack application - this gave me a lot of inspiration and help when in doubt about something. Especially Anthony O'Brien and [this](https://auxfuse.github.io/userCentricResourcePack/) extremly helpful resource pack & Ann Greaves and her amzaing Bootstrap grid [tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s)
 
-Lastly and I cannot forget my family and friends that were very involved in testing this website on their mobile phones, laptops, tablets etc. and for giving me helpful feedback.
+Lastly my family and friends that were very involved in testing this website on their mobile phones, laptops, tablets etc. and for giving me helpful feedback.
 
