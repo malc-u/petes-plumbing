@@ -111,7 +111,7 @@ Manually tested:
 - Check our reviews button (Services section) takes user to About section
 - Book free inspection now (Services section) when clicked takes user to Contact section
 - Link assigned to Gas Safe Register number 545699 (About section) when clicked opens new tab with company membership details on Gas Safe Register website
-- tabs with first name and surname initial in each tab (About section) when clicked present user with a review from this customer as well as link to the relevat social media (hidden under favicon/icon)
+- tabs with first name and surname initial in each tab (About section) when clicked present user with a review from this customer as well as link to the relevant social media (hidden under favicon/icon)
 - Favicon/icon of Google in the review  (About section) when clicked opens new tab with relevant review
 - Favicon/icon of Facebook in the review (About section) when clicked opens new tab with company's Facebook account where review list is clearly presented
 - Check FAQ button (About section) when clicked takes user to FAQ section
