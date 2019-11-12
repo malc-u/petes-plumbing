@@ -357,14 +357,12 @@ and styled paragraph to change its properties to differ in ths section*/
     background-color: #fff;
     color: #369;
     font-weight: 600;
-    padding: 0;
-    margin: 3px 8px;
+    padding: 3px 8px;
     text-align: center;
 }
 
 .card-body {
-    padding: 0;
-    margin: 5px;
+    padding-bottom: 5px;
 }
 
 .card {
@@ -451,11 +449,11 @@ and styled paragraph to change its properties to differ in ths section*/
     vertical-align: top;
 }
 
-.key h5 {
+.key h6 {
     text-transform: uppercase;
 }
 
-.value h5 a {
+.value h6 a {
     color: black;
 }
 
