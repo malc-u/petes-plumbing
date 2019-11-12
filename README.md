@@ -7,7 +7,7 @@ This is a website for a small plumbing & heating company in East Anglia. It is c
 The website is dedicated mostly for individual clients. 
 
 #### External user’s goal:
-The site users are people planning upgrades and renovation of their homes in the future and/or individuals looking for services they require now. They all wish to learn more about company and services provided and possibly book an appoitment.
+The site users are people planning upgrades and renovation of their homes in the future and/or individuals looking for services they require now. They all wish to learn more about company and services provided and possibly book an appoitment or hear back from the company.
 
 #### Site owner's goal:
 The business owner wants to inform potential clients about the services and convince them to chose their servies over ones provided by the competition.
@@ -16,7 +16,9 @@ The business owner wants to inform potential clients about the services and conv
 Vast majority of the users will be individuals who require plumbing and heating services in near future. People visiting this page will not be looking for ideas or asking themselves a question "if" they are going to go ahead with the planned investment. In plumbing & heating industry this is mostly checked on pages like Pintrest etc. where ideas can be looked up. 
 Page users will be researching "which" company they are going to choose to carry out their planned investment.
 
-Taking this into consideartion this website is designed to assure them about professionalism and affordability (this confirmed in the reviews and gas safe memebership). 
+Taking this into consideartion this website is designed to assure them about professionalism and affordability (this confirmed in the reviews, gas safe memebership and free inspections provided by the company).  
+Welcome page contains a picture of company's plumber/gas engineer at work - which enhances trust in our company, especially to returning customers that will recognize the person is the person that visited them. 
+Color scheme was purposly limited to enhance red and blue that are commonly regarded as associated with plumbing and/or hot and cold water.
 
 #### User stories
 - website user wants to have easy & efficient way of navigating to each part of website (nagivation bar)
@@ -87,12 +89,18 @@ Some functions of the front end of this website, ie. fonts, cards etc were impor
 - [Open Office Calc](https://www.openoffice.org/product/calc.html) - for creating wireframes
 - [Google Drive](https://www.google.com/drive/) - for hosting wireframes
 - [NVDA - NV Access](https://www.nvaccess.org/) - for screen reading 
+- [Stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) & [Positronx](https://www.positronx.io/)- for researching solutions to the problems I came accross
+- [Code Pen](https://codepen.io/) - for testing whether my ideas would work
 
 
 ## Testing 
 
+### Automated testing
 - [The W3C Markup validation service](https://validator.w3.org/) - automated testing of HTML in index file that pointed out few errors that were corrected 
 - [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - automated testing of CSS in style file - no errors found
+
+### Manual testing
+All features have been manually tested on desktops, tablets and laptops. I used Chrome Dev Tools on evvery stage of the project as well as a number of web browsers after the site deployment. These were:  Chrome, Opera, Firefox, Ghostery mobile app.
 
 Manually tested:
 - all links in the navigation bar tak user to relevant section
@@ -115,6 +123,7 @@ Manually tested:
 - Link under phone favicon/icon (Footer section) when clicked on a mobile phone takes user to mobile phone's call application with company numer already entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
 - Link under envelope favicon/icon (Footer section) when clicked takes user to their default email application
 - Audio description/screen reading tested via NVDA app - descriptions added and/or amended
+
 
 ## Deployment
 This project was developed using the Visual Studio Code IDE, committed to Git and pushed to GitHub.
@@ -147,10 +156,22 @@ To clone this project from GitHub following steps need to be taken:
 
 Futher reading or help with cloning can be found on this GitHub Help [page](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 ## Credits
-Navbar collapsing on click - thanks to jQuery posted by [Zim developer](https://stackoverflow.com/users/171456/zim) [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
-Tab headers used for reviews found [here](https://www.w3schools.com/howto/howto_js_tab_header.asp)
-Photo on welcome/home page taken by Pete's plumbing & gas Ltd
-Photo on About section taken from [Pexels](https://www.pexels.com/@skitterphoto)
-Photo on Contact section taken from [Pexels](https://www.pexels.com/@pixabay)
+The content of this page was entirely written by myself and consulted with the company.
+
+1. Navbar collapsing on click - thanks to jQuery posted by [Zim developer](https://stackoverflow.com/users/171456/zim) [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
+2. Tab headers used for reviews found [here](https://www.w3schools.com/howto/howto_js_tab_header.asp)
+3. Photo on welcome/home page taken by Pete's plumbing & gas Ltd
+4. Photo on About section taken from [Pexels](https://www.pexels.com/@skitterphoto)
+5. Photo on Contact section taken from [Pexels](https://www.pexels.com/@pixabay)
+6. Fonts, some styling, buttons etc were imported from [Journal](https://bootswatch.com/journal/) theme on Bootswatch
 
 ### Aknowledgements
+I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret) for his knowledge and listeing to my 
+ideas as well as suggesting what could possibly be added to improve my project. Also for his help with Visual Studio Code - how to best utilize its features and extensions.
+
+Huge thanks to all people involved in creating helpful content that can be found online ie. [Brad Traversy](https://github.com/bradtraversy), especially for his [Git crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc) and all participants and creators of [Stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) & [Positronx](https://www.positronx.io/)
+
+Big thank you to [Code Institute](https://codeinstitute.net/) tutors for amazing course content that is very helpful in understanding the concept of HTML and CSS and to students current and past for sharing their work and ideas on Slack application - this gave me a lot of inspiration and help when in doubt about something. Especially Anthony O'Brien and [this](https://auxfuse.github.io/userCentricResourcePack/) extremly helpful resource pack & Ann Greaves and her amzaing Bootstrap grid [tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s)
+
+Lastly and I cannot forget my family and friends that were very involved in testing this website on their mobile phones, laptops, tablets etc. and for giving me helpful feedback.
+
