@@ -164,7 +164,7 @@ html {
 
 /* Aligned headers of the services offered to the centre of each column */
 .gas-services-header {
-    text-align: center;
+    text-align: left;
 }
 
 /* Increased size of icons from Fontawesome so make them stand out and adding some breathing space */
@@ -178,7 +178,7 @@ html {
 /* Changed bulletpont to square and pull it inside to the centred list */
 .services-list {
     list-style: square inside;
-    padding: 0;
+    padding-left: 20px;
 }
 
 /* Made a list stand out and aligned to the centre of the column */
@@ -186,7 +186,7 @@ html {
     color: #000;
     font-weight: 500;
     padding: 3px 3px;
-    text-align: center;
+    text-align: left;
 }
 
 /* Added buttons to allow user to jump straight to contact section or carry on browsing */
