@@ -244,7 +244,7 @@ and styled paragraph to change its properties to differ in ths section*/
 #about .row .col-12 h3 {
     color: #fff;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 /* Style the tab buttons */
@@ -271,9 +271,19 @@ and styled paragraph to change its properties to differ in ths section*/
     display: none;
     padding: 10px 15px;
     text-align: left;
+    vertical-align: middle;
     font-size: 15px;
-    margin-bottom: 15px;
-    height: 65%;
+    margin-bottom: 10px;
+    min-height: 220px;
+    min-width: 260px;
+}
+ /* This media was added for mobile phones with screens bigger than Iphone5 */
+@media (min-width: 381px) {
+    .tabcontent {
+        min-height: 200px;
+        min-width: 35px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -283,8 +293,9 @@ and styled paragraph to change its properties to differ in ths section*/
         padding: 10px 50px;
         text-align: left;
         font-size: 15px;
-        margin-bottom: 15px;
         height: 50%;
+        min-height: auto;
+        min-width: auto;
     }
 }
 
@@ -294,6 +305,10 @@ and styled paragraph to change its properties to differ in ths section*/
 #Name3,
 #Name4 {
     background-color: transparent;
+}
+
+.tablink {
+    font-weight: 700;
 }
 
 /*Styled social media icons and links*/
@@ -308,7 +323,7 @@ and styled paragraph to change its properties to differ in ths section*/
 }
 
 #about .row .btn-group-column {
-    margin-top: 35px;
+    padding-top: 40px;
 }
 
 /* -------------- FAQ SECTION -------------- */
