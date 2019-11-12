@@ -3,8 +3,8 @@
 Deployed website can be found [here](https://malc-u.github.io/petes-plumbing/)
 
 ## Project purpose
-This is a website for a small plumbing & heating company in East Anglia. It is created to enhance company's visibility on the market by creating online presence. It will allow customers and potential customers to learn about services provided and convince them to choose this company over competition. 
-The website is dedicated mostly for individual clients. 
+This is a website for a small plumbing & heating company in East Anglia. It has been created to enhance company's visibility on the market by creating online presence. It will allow customers and potential customers to learn about services provided and convince them to choose this company over competition. 
+The website is mostly for individual clients. 
 
 #### External user’s goal:
 The site users are people planning upgrades and renovation of their homes in the future and/or individuals looking for services they require now. They all wish to learn more about company and services provided and possibly book an appointment or hear back from the company.
@@ -79,7 +79,7 @@ Although there is a contact form within this page it will not work as there are 
 - imported Java Script - for review tabs functionality and for navbar collapse function
 - [Tiny Jpg](https://tinyjpg.com/)- used to compress the pictures for better user experience
 - Rapid tables - [RGB Color Code Chart](https://www.rapidtables.com/web/color/RGB_Color.html) - for colors matching and adjusting
-- [Journal](https://bootswatch.com/journal/) them from Bootswatch - for some functions of the front end of this website, i.e. fonts, cards etc.
+- [Journal](https://bootswatch.com/journal/) theme from Bootswatch - for some functions of the front end of this website, i.e. fonts, cards etc.
 - [Font Awesome](https://fontawesome.com/)- for sourcing social media and gas,plumbing & heating icons/favicons
 - [The W3C Markup validation service](https://validator.w3.org/) - for HTML validation
 - [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - for CSS validation
@@ -166,6 +166,7 @@ The content of this page was entirely written by myself and consulted with the c
 6. Fonts, some styling, buttons etc. were imported from [Journal](https://bootswatch.com/journal/) theme on Bootswatch
 
 ### Acknowledgements
+
 I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret) for his knowledge and listening to my 
 ideas as well as suggesting what could possibly be added to improve my project. Also for his help with Visual Studio Code - how to best utilize its features and extensions.
 
