@@ -14,6 +14,10 @@ html {
     padding-top: 10vh;
 }
 
+.row {
+    margin: 0 0;
+}
+
 /* -------------- NAVBAR SECTION ----------------- */
 /* Logo sze was adjusted to stop Nav button from moving underneath it on small screens thus always staying on the right */
 .logo {
@@ -217,11 +221,6 @@ html {
     -ms-flex-pack: center;
     justify-content: center;
 }
-/* Removed margind from .row to widen the section */
-
-#about .row {
-    margin: 0 0;
-}
 
 /* Styled the header to add some color and breathng space 
 and styled paragraph to change its properties to differ in ths section*/
@@ -415,11 +414,6 @@ and styled paragraph to change its properties to differ in ths section*/
 }
 
 /*Removed padding and margind to widen both columns on the page */
-#contact .row {
-    padding: 0;
-    margin: 0;
-    min-width: 100%;
-}
 
 #contact .row .col-12 h1 {
     color: #e53c37;
