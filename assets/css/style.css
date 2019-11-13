@@ -389,7 +389,7 @@ and styled paragraph to change its properties to differ in ths section*/
 }
 
 /*Media to amend difference in heights for desktops */
-@media (min-width: 1356px) {
+@media (min-width: 1386px) {
     .card {
         min-height: 300px;
     }
