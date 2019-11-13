@@ -60,7 +60,7 @@ html {
 }
 
 .navbar-nav .nav-item:hover .nav-link {
-    color: white;
+    color: #fff;
 }
 
 /*Added and styled social buttons to navbar */
@@ -257,7 +257,7 @@ and styled paragraph to change its properties to differ in ths section*/
 /* Style the tab buttons */
 .tablink {
     background-color: transparent;
-    color: white;
+    color: #fff;
     float: left;
     border: none;
     outline: none;
@@ -274,7 +274,7 @@ and styled paragraph to change its properties to differ in ths section*/
 
 /* Set default styles for tab content */
 .tabcontent {
-    color: white;
+    color: #fff;
     display: none;
     padding: 10px 15px;
     text-align: left;
@@ -295,7 +295,7 @@ and styled paragraph to change its properties to differ in ths section*/
 
 @media (min-width: 768px) {
     .tabcontent {
-        color: white;
+        color: #fff;
         display: none;
         padding: 10px 50px;
         text-align: left;
@@ -391,7 +391,7 @@ and styled paragraph to change its properties to differ in ths section*/
 /*Media to amend difference in heights for desktops */
 @media (min-width: 1280px) {
     .card {
-        min-height: 310px;
+        min-height: 315px;
     }
 }
 
@@ -462,7 +462,7 @@ and styled paragraph to change its properties to differ in ths section*/
 }
 
 .value h6 a {
-    color: black;
+    color: #000;
 }
 
 /* Media added to enhance visability of contact details on tablets such us iPad, iPad Pro & */
