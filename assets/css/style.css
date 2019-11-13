@@ -108,6 +108,7 @@ html {
     margin-top: 50px;
 }
 
+/*Media added to enhance ux on medium and bigger screens*/
 @media (min-width: 768px) {
     .jumbotron h1 {
         font-weight: bolder;
@@ -155,6 +156,7 @@ html {
     margin: 40px 20px;
 }
 
+/*Media added to enhance ux on bigger screens*/
 @media (min-width: 992px) {
     #services .row .section-header p {
         margin: 20px 80px;
@@ -239,6 +241,7 @@ and styled paragraph to change its properties to differ in ths section*/
     margin: 40px 20px;
 }
 
+/*Media added to enhance ux on bigger screens*/
 @media (min-width: 992px) {
     #about .row .section-header p {
         margin: 20px 80px;
@@ -345,6 +348,7 @@ and styled paragraph to change its properties to differ in ths section*/
     margin: 40px 20px;
 }
 
+/*Media added to enhance ux on bigger screens*/
 @media (min-width: 992px) {
     #faq .row .section-header p {
         margin: 20px 80px;
@@ -367,7 +371,7 @@ and styled paragraph to change its properties to differ in ths section*/
 
 .card {
     margin-top: 20px;
-    min-height: 300px;
+    min-height: 315px;
 }
 
 /*Media to amend difference in heights for Tablets such as iPod */
@@ -461,6 +465,14 @@ and styled paragraph to change its properties to differ in ths section*/
     color: black;
 }
 
+/* Media added to enhance visability of contact details on tablets such us iPad, iPad Pro & */
+@media (min-width: 768px) and (max-width: 1280px) {
+    .value h6 {
+        display: inline;
+        font-size: 150%;
+    }
+}
+
 /*Contact Form */
 .form-column {
     padding-top: 10px;
@@ -482,7 +494,7 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fff;
 }
-
+/*Media added to enhance ux on bigger screens*/
 @media (min-width: 992px) {
     .center-form {
         padding-top: 30px;
@@ -493,6 +505,7 @@ button[type="submit"] {
 }
 
 /* FOOTER SECTION */
+/*General styling to the footer - some top breathing space, colors etc.*/
 footer {
     padding-top: 20px;
     background-color: #e0e0e0;
