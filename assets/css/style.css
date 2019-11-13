@@ -373,19 +373,19 @@ and styled paragraph to change its properties to differ in ths section*/
 /*Media to amend difference in heights for Tablets such as iPod */
 @media (min-width: 768px) {
     .card {
-        min-height: 446px;
+        min-height: 533px;
     }
 }
 
 /*Media to amend difference in heights for bigger Tablets such as iPod Pro */
 @media (min-width: 992px) {
     .card {
-        min-height: 325px;
+        min-height: 388px;
     }
 }
 
 /*Media to amend difference in heights for desktops */
-@media (min-width: 1093px) {
+@media (min-width: 1356px) {
     .card {
         min-height: 300px;
     }
@@ -411,6 +411,10 @@ and styled paragraph to change its properties to differ in ths section*/
     justify-content: center;
 }
 
+/* Widened the width of a row to 100% to enhance ux*/
+#contact .row {
+    width: 100%;
+}
 /*Removed padding and margind to widen both columns on the page */
 
 #contact .row .col-12 h1 {
