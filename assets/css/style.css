@@ -3,12 +3,12 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Added padding to these sections to allow navbar link to navigate to the beginning of each one */
-#services,
-#about,
-#faq {
-    padding-top: 17vh;
+body {
+    font-size: 16px;
 }
+
+/* Added padding to these sections to allow navbar link to navigate to the beginning of each one */
+
 
 #contact {
     padding-top: 10vh;
@@ -100,105 +100,82 @@ html {
     text-align: center;
 }
 
-/* Added media to allow the header to be smaller on phones and bigger on tablets and desktops */
-.jumbotron h1 {
-    font-weight: bolder;
+.head-word {
+    padding-top: 50px;
+    text-align: center;
     color: #fff;
-    margin-bottom: 25px;
-    margin-top: 50px;
 }
 
-/*Media added to enhance ux on medium and bigger screens*/
 @media (min-width: 768px) {
-    .jumbotron h1 {
-        font-weight: bolder;
-        color: #fff;
-        margin-bottom: 25px;
-        margin-top: 50px;
-        font-size: 400%;
-    }
+    .head-word {
+       font-size: 4rem;
+       padding: 50px 25px;
+       }
+   }
+/* Added media to allow the header to be smaller on phones and bigger on tablets and desktops */
+.badge-primary {
+    display: inline;
+    font-size: 2rem;
+    background-color: #e53c37;
+    color: #fff;
+}
+.blue-btn {
+    padding: 15px;
 }
 
-.jumbotron p {
-    font-weight: 700;
-    margin: 10px;
+.blue-btn-link {
+    display: inherit;
+    font-size: 1.5rem;
 }
 
 /* Added badge class to emphasize the paragraph and make it more visible */
-.badge-primary {
-    background-color: #e53c37;
-    padding: 2px 5px;
-}
-
-/* Added buttons to allow user to jump straight to contact section or carry on browsing */
-.btn-group-column {
-    text-align: center;
-    margin: 5px auto;
-}
-
-.home-bottom-btn {
-    padding: 5px 10px;
-    margin: auto 10px;
-}
 
 /* -------------- SERVICES SECTION --------------*/
 /* Styled header and styled paragraph to change its properties and to differ in this section */
-#services .row .section-header h1 {
+.section-header {
     color: #369;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
 }
 
-#services .row .section-header p {
-    color: #000;
-    padding: 0;
-    text-align: center;
-    margin: 40px 20px;
-}
-
-/*Media added to enhance ux on bigger screens*/
-@media (min-width: 992px) {
-    #services .row .section-header p {
-        margin: 20px 80px;
-    }
-}
-
-/* Added some extra space to services-column to push buttons down */
 .services-column {
-    margin-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-
 /* Aligned headers of the services offered to the centre of each column */
 .gas-services-header {
     text-align: left;
 }
 
 /* Increased size of icons from Fontawesome so make them stand out and adding some breathing space */
-.fa-fire-alt,
-.fa-fire,
-.fa-bath {
+.services-icon {
     margin: 10px;
-    font-size: 130%;
+    font-size: 2.5rem;
 }
 
 /* Changed bulletpont to square and pull it inside to the centred list */
 .services-list {
-    list-style: square inside;
-    padding-left: 20px;
+    list-style: none;
+    padding-left: 15px;
 }
 
 /* Made a list stand out and aligned to the centre of the column */
 .services-list-item {
     color: #000;
     font-weight: 500;
-    padding: 3px 3px;
+    padding: 3px;
     text-align: left;
 }
 
 /* Added buttons to allow user to jump straight to contact section or carry on browsing */
-.services-bottom-btn {
-    padding: 5px 10px;
-    margin: auto 10px;
+
+.red-btn {
+    padding: 15px;
+}
+
+.red-btn-link {
+    display: inherit;
+    font-size: 1.5rem;
     background-color: #e53c37;
 }
 
@@ -226,112 +203,10 @@ html {
 
 /* Styled the header to add some color and breathng space 
 and styled paragraph to change its properties to differ in ths section*/
-#about .row .section-header h1 {
-    color: #e53c37;
-    margin-top: 20px;
-    font-weight: 700;
-    text-align: center;
-}
-
-#about .row .section-header p {
-    padding: 0px;
-    background: rgba(229, 60, 55, 0.05);
+.intro-word {
     color: #fff;
-    text-align: center;
-    margin: 40px 20px;
 }
 
-/*Media added to enhance ux on bigger screens*/
-@media (min-width: 992px) {
-    #about .row .section-header p {
-        margin: 20px 80px;
-    }
-}
-
-#about .row .col-12 h3 {
-    color: #fff;
-    text-align: center;
-    padding-top: 35px;
-}
-
-/* Style the tab buttons */
-.tablink {
-    background-color: transparent;
-    color: #fff;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 10px 16px;
-    font-size: 15px;
-    width: 25%;
-}
-
-/* Change background color of buttons on hover */
-.tablink:hover {
-    background-color: transparent;
-}
-
-/* Set default styles for tab content */
-.tabcontent {
-    color: #fff;
-    display: none;
-    padding: 10px 15px;
-    text-align: left;
-    vertical-align: middle;
-    font-size: 15px;
-    margin-bottom: 10px;
-    min-height: 220px;
-    min-width: 260px;
-}
- /* This media was added for mobile phones with screens bigger than Iphone5 */
-@media (min-width: 381px) {
-    .tabcontent {
-        min-height: 200px;
-        min-width: 35px;
-    }
-
-}
-
-@media (min-width: 768px) {
-    .tabcontent {
-        color: #fff;
-        display: none;
-        padding: 10px 50px;
-        text-align: left;
-        font-size: 15px;
-        height: 50%;
-        min-height: auto;
-        min-width: auto;
-    }
-}
-
-/* Style each tab content */
-#Name1,
-#Name2,
-#Name3,
-#Name4 {
-    background-color: transparent;
-}
-
-.tablink {
-    font-weight: 700;
-}
-
-/*Styled social media icons and links*/
-#about a i.fa-facebook-square {
-    color: #369;
-    font-size: 25px;
-}
-
-#about a i.fa-google-plus-g {
-    color: #e53c37;
-    font-size: 25px;
-}
-
-#about .row .btn-group-column {
-    padding-top: 40px;
-}
 
 /* -------------- FAQ SECTION -------------- */
 /* Styled header and styled paragraph to change its properties */
