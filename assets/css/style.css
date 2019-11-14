@@ -98,27 +98,38 @@ body {
 .jumbotron {
     background-color: transparent;
     text-align: center;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .head-word {
-    padding-top: 50px;
+    padding: 50px 0px;
     text-align: center;
     color: #fff;
 }
 
 @media (min-width: 768px) {
     .head-word {
-       font-size: 4rem;
+       font-size: 3.5rem;
        padding: 50px 25px;
        }
-   }
+}
 /* Added media to allow the header to be smaller on phones and bigger on tablets and desktops */
 .badge-primary {
     display: inline;
-    font-size: 2rem;
     background-color: #e53c37;
     color: #fff;
+    font-size: 1.5rem;
 }
+
+
+@media (min-width: 768px) {
+    .badge-primary {
+        font-size: 2.5rem;
+    }
+}
+
 .blue-btn {
     padding: 15px;
 }
@@ -136,6 +147,12 @@ body {
     color: #369;
     text-align: center;
     padding: 25px;
+}
+
+@media (min-width: 768px) {
+    .section-header {
+        font-size: 3.5rem;
+    }
 }
 
 .services-column {
@@ -182,7 +199,7 @@ body {
 /* -------------- ABOUT SECTION -------------- */
 /* Added parallax to beautify the page */
 #about {
-    background: url("../images/tap1.jpg") no-repeat center right fixed;
+    background: url("../images/tap.jpg") no-repeat center right fixed;
     background-repeat: no-repeat;
     position: relative;
     min-height: 80vh;
@@ -203,10 +220,54 @@ body {
 
 /* Styled the header to add some color and breathng space 
 and styled paragraph to change its properties to differ in ths section*/
-.intro-word {
-    color: #fff;
+
+@media (min-width: 768px) {
+    .intro-word {
+        font-size: 1.2rem;
+    }
 }
 
+#about h2{
+	position: relative;
+}
+#about h2::after{
+	content: "";
+	width: 130px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #e53c37;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel-inner .carousel-item .img-box{
+	width: 135px;
+	height: 135px;
+}
+.carousel-control-prev{
+	left: -100px;
+}
+.carousel-control-next{
+	right: -100px;
+}
+.carousel-indicators{
+	top: 320px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+	.carousel-inner .carousel-item p{
+		font-size: 14px;
+	}
+	.carousel-control-prev{
+		left: -40px;
+	}
+	.carousel-control-next{
+		right: -40px;
+	}
+ 	.carousel-indicators{
+		top: 400px;
+	}
+}
 
 /* -------------- FAQ SECTION -------------- */
 /* Styled header and styled paragraph to change its properties */
