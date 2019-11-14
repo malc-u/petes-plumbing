@@ -132,10 +132,11 @@ body {
 
 .blue-btn {
     padding: 15px;
+    text-align: center;
 }
 
 .blue-btn-link {
-    display: inherit;
+    display: inline-block;
     font-size: 1.5rem;
 }
 
@@ -188,10 +189,12 @@ body {
 
 .red-btn {
     padding: 15px;
+    text-align: center;
+  
 }
 
 .red-btn-link {
-    display: inherit;
+    display: inline-block;
     font-size: 1.5rem;
     background-color: #e53c37;
 }
@@ -252,7 +255,11 @@ and styled paragraph to change its properties to differ in ths section*/
 	right: -100px;
 }
 .carousel-indicators{
-	top: 320px;
+    top: 350px;
+}
+
+.review-text {
+    padding-top: 16px;
 }
 @media (min-width: 320px) and (max-width: 640px) {
 	.carousel-inner .carousel-item p{
@@ -265,8 +272,11 @@ and styled paragraph to change its properties to differ in ths section*/
 		right: -40px;
 	}
  	.carousel-indicators{
-		top: 400px;
-	}
+        top: 415px;
+    }
+    .review-text {
+        padding-top: 5px;
+    }
 }
 
 /* -------------- FAQ SECTION -------------- */
