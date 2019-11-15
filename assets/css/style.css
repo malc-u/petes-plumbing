@@ -16,6 +16,11 @@ body {
         font-size: 1.5rem;
         line-height: 1.0;
     }
+    .display-2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
     .display-3 {
             font-size: 2.25rem;
             font-weight: 300;
@@ -83,7 +88,7 @@ body {
 }
 
 /* HOME SECTION */
-
+/* Added background picture and parallax to beautify the page */
 #home {
     background: url("../images/peter.jpg") no-repeat center center fixed;
     position: relative;
@@ -129,12 +134,8 @@ body {
 
 /* Added badge class to emphasize the paragraph and make it more visible */
 
-/* -------------- SERVICES SECTION --------------*/
+/* SERVICES SECTION */
 /* Styled header and styled paragraph to change its properties and to differ in this section */
-.section-header {
-    color: #369;
-}
-
 .intro-word {
     text-align: center;
 }
@@ -171,8 +172,8 @@ body {
     justify-content: center;
 }
 
-/* -------------- ABOUT SECTION -------------- */
-/* Added parallax to beautify the page */
+/* ABOUT SECTION */
+/* Added background picture and parallax to beautify the page */
 #about {
     background: url("../images/tap.jpg") no-repeat center right fixed;
     background-repeat: no-repeat;
@@ -195,10 +196,10 @@ body {
 
 /* Styled the header to add some color and breathng space 
 and styled paragraph to change its properties to differ in ths section*/
-#about h2{
+#testimonials {
 	position: relative;
 }
-#about h2::after{
+#testimonials::after {
 	content: "";
 	width: 130px;
 	position: absolute;
@@ -222,7 +223,6 @@ and styled paragraph to change its properties to differ in ths section*/
 .carousel-indicators{
     top: 350px;
 }
-
 .review-text {
     padding-top: 16px;
 }
@@ -244,25 +244,14 @@ and styled paragraph to change its properties to differ in ths section*/
     }
 }
 
-/* -------------- FAQ SECTION -------------- */
+/* FAQ SECTION */
 /* Styled cards look */
-.card-row {
-    padding: 15px 0;
-}
-.card-header {
-    color: #369;
-    font-weight: 600;
-    padding: 3px 8px;
-    text-align: center;
-}
-
 .card-footer .fa-phone {
     transform: rotate(90deg);
     margin-right: 10px;
 }
 
 .card {
-    margin-top: 20px;
     min-height: 300px;
 }
 
