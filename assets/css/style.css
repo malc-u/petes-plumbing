@@ -296,63 +296,7 @@ and styled paragraph to change its properties to differ in ths section*/
     justify-content: center;
 }
 
-/* Widened the width of a row to 100% to enhance ux*/
-#contact .row {
-    width: 100%;
-}
-/*Removed padding and margind to widen both columns on the page */
 
-#contact .row .col-12 h1 {
-    color: #e53c37;
-    text-align: center;
-    padding-bottom: 15px;
-}
-
-/* Contact details */
-/*Styled these classes to display nicely and in  two separate "blocks"*/
-.item {
-    clear: both;
-    padding: 15px;
-    -webkit-box-pack: left;
-    -ms-flex-pack: left;
-    justify-content: left;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.key,
-.value {
-    display: inline-block;
-}
-
-.key {
-    width: 30%;
-    text-align: left;
-    vertical-align: top;
-}
-
-.value {
-    width: 60%;
-    text-align: left;
-    vertical-align: top;
-}
-
-.key h6 {
-    text-transform: uppercase;
-}
-
-.value h6 a {
-    color: #000;
-}
-
-/* Media added to enhance visability of contact details on tablets such us iPad, iPad Pro & */
-@media (min-width: 768px) and (max-width: 1280px) {
-    .value h6 {
-        display: inline;
-        font-size: 150%;
-    }
-}
 
 /*Contact Form */
 .form-column {
@@ -360,11 +304,6 @@ and styled paragraph to change its properties to differ in ths section*/
     text-align: center;
 }
 
-.center-form {
-    padding-top: 10px;
-    margin: 10px auto;
-    max-width: 80%;
-}
 
 .form-control {
     margin-top: 4px;
@@ -405,20 +344,20 @@ footer .row .col-12 p {
 }
 
 /*Added social media links that change look when hovered over*/
-footer .social-media {
+.social-media {
     list-style-type: none;
     text-align: center;
     padding: 0 0;
 }
 
-footer .social-media .social-media-link {
+.social-media-link {
     display: inline;
     margin: auto auto;
     padding-right: 7px;
     padding-left: 7px;
 }
 
-footer .social-media .social-media-link a i {
+.social-media-link a i {
     width: 30px;
     height: 30px;
     border-radius: 25%;
@@ -435,22 +374,22 @@ footer .social-media .social-media-link a i {
     -o-transition: all 0.3s ease-in-out;
 }
 
-footer .social-media .social-media-link a i.fa-google-plus-g:hover {
+.social-media-link .fa-google-plus-g:hover {
     color: #e53c37;
     background-color: transparent;
     font-size: 200%;
     padding-top: 15px;
 }
 
-footer .social-media .social-media-link a i.fa-facebook-square:hover {
+.social-media-link .fa-facebook-square:hover {
     color: #369;
     background-color: #fff;
     font-size: 200%;
     padding-top: 15px;
 }
 
-.social-media-link a i.fa-phone:hover,
-.social-media-link a i.fa-envelope:hover {
+.social-media-link .fa-phone:hover,
+.social-media-link .fa-envelope:hover {
     font-size: 200%;
     padding-top: 15px;
     color: #000;
