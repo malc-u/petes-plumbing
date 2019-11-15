@@ -6,7 +6,7 @@ body {
     font-size: 16px;
 }
 
-/*Managing Bootstrap display and heading class for mobiles */
+/* Managing Bootstrap display and heading class for mobiles */
 @media (max-width: 575.98px) {
     .h1 {
         font-size: 1.75rem;
@@ -59,7 +59,7 @@ body {
     }
 }
 
-/* Added colors and border radius (on big screens) to make nav buttons nicer looking when hovered over */
+/* Added colors and border radius (on big screens) to make nav buttons look nicer when hovered over */
 @media (min-width: 992px) {
     .nav-item:hover {
         border-radius: 20%;
@@ -124,7 +124,7 @@ body {
        padding-right: 25px;
        }
 }
-
+/* Added buttons & styled them */
 .blue-btn-link {
     display: flex;
     justify-content: center;
@@ -132,10 +132,8 @@ body {
     padding: 7px;
 }
 
-/* Added badge class to emphasize the paragraph and make it more visible */
-
 /* SERVICES SECTION */
-/* Styled header and styled paragraph to change its properties and to differ in this section */
+/* Styled paragraph to center it and change its size on bigger screens*/
 .intro-word {
     text-align: center;
 }
@@ -151,12 +149,12 @@ body {
     font-size: 2.5rem;
 }
 
-/* Changed bulletpont to square and pull it inside to the centred list */
+/* Deleted list decorationfrom */
 .services-list {
     list-style: none;
 }
 
-/* Made a list stand out and aligned to the centre of the column */
+/* Made a list stand out */
 .services-list-item {
     font-weight: 500;
     padding: 3px;
@@ -164,7 +162,7 @@ body {
     text-align: left;
 }
 
-/* Added buttons to allow user to jump straight to contact section or carry on browsing */
+/* Added buttons & styled them */
 .red-btn-link {
     display: flex;
     font-size: 1.3rem;
@@ -194,8 +192,7 @@ body {
     justify-content: center;
 }
 
-/* Styled the header to add some color and breathng space 
-and styled paragraph to change its properties to differ in ths section*/
+/* Style copied and ajusted to the site needs - more in README*/
 #testimonials {
 	position: relative;
 }
@@ -296,53 +293,11 @@ and styled paragraph to change its properties to differ in ths section*/
     justify-content: center;
 }
 
-
-
-/*Contact Form */
-.form-column {
-    padding-top: 10px;
-    text-align: center;
-}
-
-
-.form-control {
-    margin-top: 4px;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fff;
-}
-/*Media added to enhance ux on bigger screens*/
-@media (min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 80%;
-    }
-}
-
 /* FOOTER SECTION */
 /*General styling to the footer - some top breathing space, colors etc.*/
 footer {
-    padding-top: 20px;
     background-color: #e0e0e0;
 }
-
-footer .row .col-12.col-md-4 {
-    margin: 0 0;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    background-color: #e0e0e0;
-}
-
-footer .row .col-12 p {
-    text-align: center;
-    font-size: smaller;
-}
-
 /*Added social media links that change look when hovered over*/
 .social-media {
     list-style-type: none;
