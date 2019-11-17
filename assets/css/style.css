@@ -38,7 +38,7 @@ body {
         width: 230px;
     }
 }
-/* Added some padding to Nav links for breathing space on small screens */
+/* Added some padding to Nav links for breathing space on small screens and border radius (on big screens) */
 .nav-item {
     text-transform: uppercase;
     padding-left: 10px;
@@ -49,10 +49,6 @@ body {
         padding: 0.625rem;
         border-bottom: none;
     }
-}
-
-/* Added colors and border radius (on big screens) to make nav buttons look nicer when hovered over */
-@media (min-width: 992px) {
     .nav-item:hover {
         border-radius: 20%;
     }
