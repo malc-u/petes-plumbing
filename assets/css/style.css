@@ -54,7 +54,7 @@ body {
 
 @media (min-width: 992px) {
     .nav-item {
-        padding: 10px 10px;
+        padding: 0.625rem;
         border-bottom: none;
     }
 }
@@ -126,8 +126,8 @@ body {
 
 @media (min-width: 768px) {
     .head-word {
-       padding-left: 25px;
-       padding-right: 25px;
+       padding-left: 1.5625rem;
+       padding-right: 1.5625rem;
        }
 
     #afford {
@@ -159,7 +159,7 @@ body {
 }
 /* Increased size of icons from Fontawesome so make them stand out and adding some breathing space */
 .services-icon {
-    margin: 10px;
+    margin: 0.625rem;
     font-size: 2.5rem;
 }
 /* Deleted list decoration */
@@ -191,7 +191,6 @@ body {
 /* Added background picture and parallax to beautify the page */
 #about {
     background: url("../images/tap.jpg") no-repeat center right fixed;
-    background-repeat: no-repeat;
     position: relative;
     min-height: 80vh;
     background-size: cover;
@@ -238,7 +237,7 @@ body {
     top: 350px;
 }
 .review-text {
-    padding-top: 16px;
+    padding-top: 1rem;;
 }
 @media (min-width: 320px) and (max-width: 640px) {
 	.carousel-inner .carousel-item p{
@@ -263,7 +262,7 @@ body {
 .card-footer .fa-phone {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .card {
@@ -296,10 +295,12 @@ body {
 /* Added background picture and parallax to beautify the page */
 #contact {
     background: url("../images/contact.jpg") no-repeat center center fixed;
-    background-repeat: no-repeat;
     position: relative;
     min-height: 60vh;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -320,7 +321,7 @@ footer {
 .social-media {
     list-style-type: none;
     text-align: center;
-    padding: 0 0;
+    padding: 0;
 }
 
 .social-media-link {
@@ -334,7 +335,7 @@ footer {
     height: 30px;
     border-radius: 25%;
     text-align: center;
-    padding: 12px 0;
+    padding: 0.75rem 0;
     color: #fff;
     background-color: #000;
     vertical-align: middle;
@@ -350,20 +351,20 @@ footer {
     color: #e53c37;
     background-color: transparent;
     font-size: 200%;
-    padding-top: 15px;
+    padding-top: 0.9375rem;
 }
 
 .social-media-link .fa-facebook-square:hover {
     color: #369;
     background-color: #fff;
     font-size: 200%;
-    padding-top: 15px;
+    padding-top: 0.9375rem;
 }
 
 .social-media-link .fa-phone:hover,
 .social-media-link .fa-envelope:hover {
     font-size: 200%;
-    padding-top: 15px;
+    padding-top: 0.9375rem;
     color: #000;
     background-color: transparent;
 }
