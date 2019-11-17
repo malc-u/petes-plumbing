@@ -118,11 +118,21 @@ body {
     background-color: #e53c37;
 }
 
+#afford {
+    letter-spacing: 3px;
+    padding: 0 0.25rem;
+    line-height: 1.65;
+}
+
 @media (min-width: 768px) {
     .head-word {
        padding-left: 25px;
        padding-right: 25px;
        }
+
+    #afford {
+        padding: 1rem;
+    }
 }
 /* Added buttons & styled them */
 .blue-btn-link {
