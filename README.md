@@ -111,47 +111,47 @@ Manually tested:
 - Audio description/**screen reading** tested via NVDA app - descriptions added and/or amended
  
 #### Testing user stories from UX:
-1. Website user wants to have easy & efficient way of navigating to each part of website (navigation bar)
+**1. Website user wants to have easy & efficient way of navigating to each part of website (navigation bar)**
 
 Navigation bar is fixed to the top and allows website users to navigate easily to each part of the page.
 
-2. Website user wants to connect with the company - by being introduced to the people they are potentially going to meet when they decide to purchase services
+**2. Website user wants to connect with the company - by being introduced to the people they are potentially going to meet when they decide to purchase services**
 
 Welcome/home page presents user a picture of company's plumber/gas engineer who is the face of a company. Customers are always meeting his at their doorstep.  Additionally About section presents company's professional membership status (where again users can see a picture of the same person as a company representative).
 
-3. Website user wants to have easy access to list of services provided by the company
+**3. Website user wants to have easy access to list of services provided by the company**
 
 Website user can easily access services though navigation bar from any section of this page or directly from welcome/home page by clicking "Check our services" button.
 
-4. Website user wants to be assured/ presented that the company staff is professional, appropriately trained & a member of professional bodies
+**4. Website user wants to be assured/ presented that the company staff is professional, appropriately trained & a member of professional bodies**
 
 Website user can read about membership of a professional body in the About section as well as easily access their website to confirm it by using the link provided in this section. Additionally website user has got access to some reviews on the page and provided links to the social media where more reviews can be read.
 
-5. Website user wants to have access to customer reviews to find out past customers' opinions and information about services that they were provided by the company
+**5. Website user wants to have access to customer reviews to find out past customers' opinions and information about services that they were provided by the company**
 
 Some recent reviews are presented in About section. There are also links to company's social media pages both within the navigation bar and in the footer section. These links will allow customer to read more reviews on company's social media.
 
-6. Website user wants to have more that 1 way of contacting the company - i.e. phone number, email address and/or contact form
+**6. Website user wants to have more that 1 way of contacting the company - i.e. phone number, email address and/or contact form**
 
 User is presented with many ways of contacting the company - from every section of the page they can access contact via navigation bar or "book fee inspection" button on the bottom of the page. Options they can choose are: phone, email, contact form to hear back from the company or social media.
 
-7. Website user wants to have easy way of reaching company's social media to read reviews of to start following the company etc.
+**7. Website user wants to have easy way of reaching company's social media to read reviews of to start following the company etc.**
 
 User can access company's social media from every section of the page via links/icons in the navigation bar as well via the links provided in the footer.
 
-8. Website user wants to have easy access to contact section/ contact options from each section of the website
+**8. Website user wants to have easy access to contact section/ contact options from each section of the website**
 
 Contact section and contact options are easily accessible from every section of the page via navigation bar and "book free inspection" button on the bottom of each section. Additional contact option - social media - can also be accessed via navigation bar and links provided in the footer.
 
-9. Website user wants to be given advice/answer to frequently asked questions
+**9. Website user wants to be given advice/answer to frequently asked questions**
 
 Advice to frequently asked questions and how to act in emergency situations is given in FAQ section. This is easily accessed via navigation bar from every section of this page.
 
-10. Website user that relies on audio description/screen readers wants to have descriptions inbuilt in the website
+**10. Website user that relies on audio description/screen readers wants to have descriptions inbuilt in the website**
 
 This page has got incorporated instructions for screen reading.
 
-11. Returning website user wants to have easy access to contact options via link directly from navigation bar or home web section
+**11. Returning website user wants to have easy access to contact options via link directly from navigation bar or home web section**
 
 Contact section and contact options are easily accessible from every section of the page via navigation bar and "book free inspection" button on the bottom of each section. Additional contact option - social media - can also be accessed via navigation bar and links provided in the footer.
 
