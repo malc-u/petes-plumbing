@@ -60,10 +60,10 @@ Although there is a contact form within this page it will not work as there are 
 - All links described for audio description/screen reading purposes
 
 ### Potential features to implement later
-- portfolio of jobs completed
-- back end functions to the contact form
+- Portfolio of jobs completed
+- Back end functions to the contact form
 - Captcha function to the contact form for better protection
-- blog that would be updated regularly with tips and how-to making website more interesting and inciting customers to return or even share the page with friends and family
+- Blog that would be updated regularly with tips and how-to making website more interesting and inciting customers to return or even share the page with friends and family
 
 ## Technologies & tools used
 - HTML
