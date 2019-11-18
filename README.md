@@ -205,11 +205,9 @@ The content of this page was entirely written by myself and consulted with the c
 ### Acknowledgements
 
 1. I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret) for his knowledge and listening to my 
-ideas as well as suggesting what could possibly be added to improve my project. Also for his help with Visual Studio Code - how to best utilize its features and extensions.
+ideas as well as suggesting what could possibly be added to improve my project. Also for his help with Visual Studio Code - how to best utilize its features and extensions
 
-2. Huge thanks to all people involved in creating helpful content that can be found online i.e. [Brad Traversy](https://github.com/bradtraversy), especially for his [Git crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc) and all participants and creators of ).
-
-Big thank you to [Code Institute](https://codeinstitute.net/) tutors for amazing course content that is very helpful in getting to understand the concept of HTML and CSS and to students current and past for sharing their work, ideas and opinions on Slack application - this gave me a lot of inspiration and help when in doubt about something. Especially Anthony O'Brien and [this](https://auxfuse.github.io/userCentricResourcePack/) extremely helpful resource pack & Ann Greaves and her amazing Bootstrap grid [tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s).
-
-Lastly my family and friends that were very involved in testing this website on their mobile phones, laptops, tablets etc. and for giving me helpful feedback.
+2. [Anthony O'Brien](https://github.com/auxfuse)'s [resource pack](https://auxfuse.github.io/userCentricResourcePack/) 
+3. [Anna Greaves](https://github.com/AJGreaves)' amazing Bootstrap grid [tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s) & advice on solving my website's issue for big screens.
+4. [Code Institute](https://codeinstitute.net/) tutors, students current and past that are sharing their work, ideas and opinions on Slack application - this gave me a lot of inspiration and help when in doubt about something.
 
