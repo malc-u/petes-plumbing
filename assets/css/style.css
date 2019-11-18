@@ -12,20 +12,23 @@ body {
         font-size: 1.75rem;
         line-height: 1.0;
     }
+
     .h2 {
         font-size: 1.5rem;
         line-height: 1.0;
     }
+
     .display-2 {
         font-size: 2.5rem;
         font-weight: 300;
         line-height: 1.0;
     }
+
     .display-3 {
-            font-size: 2.25rem;
-            font-weight: 300;
-            line-height: 1.0;
-        }
+        font-size: 2.25rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
 }
 
 /* NAVBAR SECTION */
@@ -33,22 +36,26 @@ body {
 .logo {
     width: 125px;
 }
+
 @media (min-width: 768px) {
     .logo {
         width: 230px;
     }
 }
+
 /* Added some padding to Nav links for breathing space on small screens and border radius (on big screens) & colors */
 .nav-item {
     text-transform: uppercase;
     padding-left: 10px;
     border-bottom: 1px solid gray;
 }
+
 @media (min-width: 992px) {
     .nav-item {
         padding: 0.625rem;
         border-bottom: none;
     }
+
     .nav-item:hover {
         border-radius: 20%;
     }
@@ -114,22 +121,23 @@ body {
 
 @media (min-width: 768px) {
     .head-word {
-       padding-left: 1.5625rem;
-       padding-right: 1.5625rem;
-       }
+        padding-left: 1.5625rem;
+        padding-right: 1.5625rem;
+    }
 
     #afford {
         padding: 1rem;
     }
 }
+
 /* Added buttons & styled them */
 .blue-btn-link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     font-size: 1.3rem;
     padding: 7px;
 }
@@ -145,11 +153,13 @@ body {
         font-size: 1.2rem;
     }
 }
+
 /* Increased size of icons from Fontawesome so make them stand out and adding some breathing space */
 .services-icon {
     margin: 0.625rem;
     font-size: 2.5rem;
 }
+
 /* Deleted list decoration */
 .services-list {
     list-style: none;
@@ -171,8 +181,8 @@ body {
     font-size: 1.3rem;
     background-color: #e53c37;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 /* ABOUT SECTION */
@@ -198,48 +208,60 @@ body {
 
 /* Style copied and ajusted to the site needs - more in README*/
 #testimonials {
-	position: relative;
+    position: relative;
 }
+
 #testimonials::after {
-	content: "";
-	width: 130px;
-	position: absolute;
-	margin: 0 auto;
-	height: 3px;
-	background: #e53c37;
-	left: 0;
-	right: 0;
-	bottom: -10px;
+    content: "";
+    width: 130px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #e53c37;
+    left: 0;
+    right: 0;
+    bottom: -10px;
 }
-.carousel-inner .carousel-item .img-box{
-	width: 135px;
-	height: 135px;
+
+.carousel-inner .carousel-item .img-box {
+    width: 135px;
+    height: 135px;
 }
-.carousel-control-prev{
-	left: -100px;
+
+.carousel-control-prev {
+    left: -100px;
 }
-.carousel-control-next{
-	right: -100px;
+
+.carousel-control-next {
+    right: -100px;
 }
-.carousel-indicators{
+
+.carousel-indicators {
     top: 350px;
 }
+
 .review-text {
-    padding-top: 1rem;;
+    padding-top: 1rem;
+    ;
 }
+
 @media (min-width: 320px) and (max-width: 640px) {
-	.carousel-inner .carousel-item p{
-		font-size: 14px;
-	}
-	.carousel-control-prev{
-		left: -40px;
-	}
-	.carousel-control-next{
-		right: -40px;
-	}
- 	.carousel-indicators{
+    .carousel-inner .carousel-item p {
+        font-size: 14px;
+    }
+
+    .carousel-control-prev {
+        left: -40px;
+    }
+
+    .carousel-control-next {
+        right: -40px;
+    }
+
+    .carousel-indicators {
         top: 415px;
     }
+
     .review-text {
         padding-top: 5px;
     }
@@ -249,7 +271,7 @@ body {
 /* Styled cards look */
 .card-footer .fa-phone {
     -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
     margin-right: 0.625rem;
 }
 
@@ -305,6 +327,7 @@ body {
 footer {
     background-color: #e0e0e0;
 }
+
 /*Added social media links that change look when hovered over*/
 .social-media {
     list-style-type: none;
