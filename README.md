@@ -91,24 +91,24 @@ Although there is a contact form within this page it will not work as there are 
 All features have been manually tested on desktops, tablets and laptops. I used Chrome Dev Tools during every stage of the project as well as a number of web browsers after the site deployment. These were:  Chrome, Opera, Microsoft Edge, Firefox, Ghostery mobile app.
 
 Manually tested:
-- all links in the navigation bar take user to relevant section
-- logo click in the navigation bar takes user to the welcome/home page
-- social media links in the navigation bar when clicked open new tab with relevant social media in them
-- Check our services button (welcome/home page) takes users to services section
-- Book free inspection button (welcome/home page) when clicked takes user to Contact section
-- Check our reviews button (Services section) takes user to About section
-- Book free inspection button (Services section) when clicked takes user to Contact section
-- Link assigned to Gas Safe Register number 545699 (About section) when clicked opens new tab with company membership details on Gas Safe Register website
-- Testimonial carousel previous and ext buttons (About section) when clicked present user  previous/next available review 
-- Check FAQ button (About section) when clicked takes user to FAQ section
-- Book free inspection button (About section) when clicked takes user to Contact section
-- Call us on button (FAQ section) when clicked on takes user to mobile phone's call application with company number already pre-entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
-- Book free inspection button (FAQ section) when clicked takes user to Contact section
-- All contact form fields are set as required so when form is completed with missing information user is prompted to fill in required fields
-- Links to social media (Footer section) when clicked open new tab with relevant company's social media pages
-- Link under phone favicon/icon (Footer section) when clicked on a mobile phone takes user to mobile phone's call application with company number already entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
-- Link under envelope favicon/icon (Footer section) when clicked takes user to their default email application
-- Audio description/screen reading tested via NVDA app - descriptions added and/or amended
+- All links in the **navigation bar** take user to relevant section
+- **Logo** click in the navigation bar takes user to the welcome/home page
+- **Social media links** in the navigation bar when clicked open new tab with relevant social media in them
+- **Check our services button** (welcome/home page) takes users to services section
+- **Book free inspection button** (welcome/home page) when clicked takes user to Contact section
+- **Check our reviews button** (Services section) takes user to About section
+- **Book free inspection button** (Services section) when clicked takes user to Contact section
+- **Link** assigned **to Gas Safe Register** number 545699 (About section) when clicked opens new tab with company membership details on Gas Safe Register website
+- **Testimonial carousel** previous and next buttons (About section) when clicked present user  previous/next available review 
+- **Check FAQ button** (About section) when clicked takes user to FAQ section
+- **Book free inspection button** (About section) when clicked takes user to Contact section
+- **Call us on...** button (FAQ section) when clicked on takes user to mobile phone's call application with company number already pre-entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
+- **Book free inspection button** (FAQ section) when clicked takes user to Contact section
+- All **contact form** fields are set as required so when form is completed with missing information user is prompted to fill in required fields
+- Links to **social media** (Footer section) when clicked open new tab with relevant company's social media pages
+- Link under **phone icon**/favicon (Footer section) when clicked on a mobile phone takes user to mobile phone's call application with company number already entered waiting for user to hit default "make call" button for this device or on a computer takes user to default phone call making application such as Skype etc.
+- Link under **envelope icon**/favicon (Footer section) when clicked takes user to their default email application
+- Audio description/**screen reading** tested via NVDA app - descriptions added and/or amended
  
 #### Testing user stories from UX:
 1. Website user wants to have easy & efficient way of navigating to each part of website (navigation bar)
