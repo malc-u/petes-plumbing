@@ -1,6 +1,6 @@
 # Pete's plumbing & gas Ltd 
 
-Deployed website can be found [here](https://malc-u.github.io/petes-plumbing/)
+
 
 ## Project purpose
 This is a website for a small plumbing & heating company in East Anglia. It has been created to enhance company's visibility on the market by creating online presence. It will allow customers and potential customers to learn about services provided and convince them to choose this company over competition. 
@@ -21,17 +21,17 @@ Welcome page contains a picture of company's plumber/gas engineer at work - whic
 Color scheme was intentionally limited to enhance red and blue that are commonly regarded as associated with plumbing and/or hot and cold water.
 
 #### User stories
-- website user wants to have easy & efficient way of navigating to each part of website (navigation bar)
-- website user wants to connect with the company - by being introduced to the people they are potentially going to meet when they decide to purchase services
-- website user wants to have easy access to list of services provided by the company
-- website user wants to be assured/ presented that the company staff is professional, appropriately trained & a member of professional bodies
-- website user wants to have access to customer reviews to find out past customers' opinions and information about services that they were provided by the company
-- website user wants to have more that 1 way of contacting the company - i.e. phone number, email address and/or contact form
-- website user wants to have easy way of reaching company's social media to read reviews of to start following the company etc.
-- website user wants to have easy access to contact section/ contact options from each section of the website
-- website user wants to be given advice/answer to frequently asked questions
-- website user that relies on audio description/screen readers wants to have descriptions inbuilt in the website
-- returning website user wants to have easy access to contact options via link directly from navigation bar or home web section
+- Website user wants to have easy & efficient way of navigating to each part of website (navigation bar)
+- Website user wants to connect with the company - by being introduced to the people they are potentially going to meet when they decide to purchase services
+- Website user wants to have easy access to list of services provided by the company
+- Website user wants to be assured/ presented that the company staff is professional, appropriately trained & a member of professional bodies
+- Website user wants to have access to customer reviews to find out past customers' opinions and information about services that they were provided by the company
+- Website user wants to have more that 1 way of contacting the company - i.e. phone number, email address and/or contact form
+- Website user wants to have easy way of reaching company's social media to read reviews of to start following the company etc.
+- Website user wants to have easy access to contact section/ contact options from each section of the website
+- Website user wants to be given advice/answer to frequently asked questions
+- Website user that relies on audio description/screen readers wants to have descriptions inbuilt in the website
+- Returning website user wants to have easy access to contact options via link directly from navigation bar or home web section
 
 #### Wireframes 
 Initial wireframes for this project can be seen in the wireframes folder.

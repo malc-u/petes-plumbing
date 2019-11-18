@@ -38,7 +38,7 @@ body {
         width: 230px;
     }
 }
-/* Added some padding to Nav links for breathing space on small screens and border radius (on big screens) */
+/* Added some padding to Nav links for breathing space on small screens and border radius (on big screens) & colors */
 .nav-item {
     text-transform: uppercase;
     padding-left: 10px;
