@@ -156,7 +156,6 @@ This page has got incorporated instructions for screen reading.
 Contact section and contact options are easily accessible from every section of the page via navigation bar and "book free inspection" button on the bottom of each section. Additional contact option - social media - can also be accessed via navigation bar and links provided in the footer.
 
 ## Deployment
-This project was developed using the Visual Studio Code IDE, committed to Git and pushed to GitHub.
 
 Deploying this page from GitHub repository to GitHub Pages was achieved by following these steps:
 1. Logging into GitHub
