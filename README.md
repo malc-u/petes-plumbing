@@ -68,27 +68,15 @@ Although there is a contact form within this page it will not work as there are 
 ## Technologies & tools used
 - HTML
 - CSS
+- jQuery - for navbar collapse function
 - [Bootstrap](https://getbootstrap.com/) - for structuring the layout of the website and mobile first design
-- [Visual Studio Code](https://code.visualstudio.com/) - IDE for writing the code
-- [Git](https://git-scm.com/) - installed on the local machine and integrated with Visual Studio Code
-- Visual Studio Code built in terminal - to stage and commit all changes and push them to remote repository
-- [GitHub](https://github.com/)- for version control and for hosting deployed website
-- Google Chrome developer tools - for testing the page through the development process
-- imported Java Script - for navbar collapse function
-- [Tiny Jpg](https://tinyjpg.com/)- used to compress the pictures for better user experience
-- Rapid tables - [RGB Color Code Chart](https://www.rapidtables.com/web/color/RGB_Color.html) - for colors matching and adjusting
-- [Journal](https://bootswatch.com/journal/) theme from Bootswatch - for some functions of the front end of this website, i.e. fonts, cards etc.
 - [Font Awesome](https://fontawesome.com/)- for sourcing social media and gas,plumbing & heating icons/favicons
-- [Nicesnippets](https://www.nicesnippets.com/snippet/bootstrap-4-testimonials-or-people-review-slider) - for sourcing testimonial carousel code 
-- [The W3C Markup validation service](https://validator.w3.org/) - for HTML validation
-- [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - for CSS validation
+- Popper.js
+- [Git](https://git-scm.com/) - installed on the local machine and integrated with Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com/) - IDE for writing the code
+- [Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools?hl=es-419) - for testing the page through the development process
 - [Autoprefixer](https://autoprefixer.github.io/) - for vendor prefixes control in CSS
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) extension in Visual Studio Code - for beautifying HTML and CSS
-- [Pexels](https://www.pexels.com/) free stock photos- for sourcing 2 out of 3 background pictures on the website 
-- [Open Office Calc](https://www.openoffice.org/product/calc.html) - for creating wireframes
-- [NVDA - NV Access](https://www.nvaccess.org/) - for screen reading 
-- [Stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) & [Positronx](https://www.positronx.io/)- for researching solutions to the problems I came across
-- [Code Pen](https://codepen.io/) - for testing whether my ideas would work
+- [Tiny Jpg](https://tinyjpg.com/)- used to compress the pictures for better user experience
 
 
 ## Testing 
@@ -97,6 +85,7 @@ Although there is a contact form within this page it will not work as there are 
 - [The W3C Markup validation service](https://validator.w3.org/) - automated testing of HTML in index file that pointed out few errors that were corrected 
 - [The W3C CSS Validation Service - W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - automated testing of CSS in style file - no errors found
 - [Lighthouse in Chrome Developer Tools](https://developers.google.com/web/tools/lighthouse#devtools) - for automated webiste auditing
+- [NVDA - NV Access](https://www.nvaccess.org/) - for screen reading testing
 
 #### Manual testing
 All features have been manually tested on desktops, tablets and laptops. I used Chrome Dev Tools during every stage of the project as well as a number of web browsers after the site deployment. These were:  Chrome, Opera, Microsoft Edge, Firefox, Ghostery mobile app.
@@ -203,10 +192,7 @@ The content of this page was entirely written by myself and consulted with the c
 1. Navbar collapsing on click - thanks to jQuery posted by [Zim developer](https://stackoverflow.com/users/171456/zim) [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
 2. Testimonial carousel used for reviews found [here](https://www.nicesnippets.com/snippet/bootstrap-4-testimonials-or-people-review-slider)
 3. Photo on welcome/home page taken by Pete's plumbing & gas Ltd
-4. Photo on About section taken from [Pexels](https://www.pexels.com/@skitterphoto)
-5. Photo on Contact section taken from [Pexels](https://www.pexels.com/@pixabay)
-6. Photo/avatars for testimonial carousel found [here](https://pixabay.com/users/roverhate-1759589/)
-7. Fonts, some styling, buttons etc. were imported from [Journal](https://bootswatch.com/journal/) theme on Bootswatch
+
 
 ### Acknowledgements
 
