@@ -34,7 +34,7 @@ Color scheme was intentionally limited to enhance red and blue that are commonly
 - Returning website user wants to have easy access to contact options via link directly from navigation bar or home web section
 
 #### Wireframes 
-Initial wireframes for this project can be seen in the wireframes folder.
+Initial wireframes for this project can be seen in the [wireframes folder](https://github.com/malc-u/petes-plumbing/tree/master/wireframes).
 
 ## Functionality
 This project utilises Bootstrap framework and Bootswatch Journal theme as a base to create one/scrolling page with Mobile first approach. This website is within the mandatory guidelines. It is written in HTML and CSS, however some Java Script was added to enhance the user experience. It is a single scrolling page with 5 separate page areas with navigation bar and footer. 
