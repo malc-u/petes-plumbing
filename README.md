@@ -192,14 +192,22 @@ The content of this page was entirely written by myself and consulted with the c
 1. Navbar collapsing on click - thanks to jQuery posted by [Zim developer](https://stackoverflow.com/users/171456/zim) [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
 2. Testimonial carousel used for reviews found [here](https://www.nicesnippets.com/snippet/bootstrap-4-testimonials-or-people-review-slider)
 3. Photo on welcome/home page taken by Pete's plumbing & gas Ltd
+4. Photo on About section taken from Pexels - [Skitterphoto](https://www.pexels.com/@skitterphoto) and [Pixabay](https://
+5. Photo/avatars for testimonial carousel found [here](https://pixabay.com/users/roverhate-1759589/)
+6. Fonts, some styling, buttons etc. were imported from [Journal](https://bootswatch.com/journal/) theme on Bootswatch
+7. Testimonials slide - sourced from [Nicesnippets](https://www.nicesnippets.com/snippet/bootstrap-4-testimonials-or-people-review-slider)
+8. Color marching and adjusting was done on Rapid Tables [RGB Color Code Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
+9. Wireframes created using - [Open Office Calc](https://www.openoffice.org/product/calc.html)
+10. Ideas were tested using [Code Pen](https://codepen.io/)
+11. Research was done on [Stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/), [Nicesnippets](https://www.nicesnippets.com/), [Positronx](https://www.positronx.io/) & [Traversy Media](https://www.youtube.com/user/TechGuyWeb)
 
 
 ### Acknowledgements
 
-I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret) for his knowledge and listening to my 
+1. I would like to thank my mentor [Simen Daehlin](https://github.com/Eventyret) for his knowledge and listening to my 
 ideas as well as suggesting what could possibly be added to improve my project. Also for his help with Visual Studio Code - how to best utilize its features and extensions.
 
-Huge thanks to all people involved in creating helpful content that can be found online i.e. [Brad Traversy](https://github.com/bradtraversy), especially for his [Git crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc) and all participants and creators of [Stack overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/), [Nicesnippets](https://www.nicesnippets.com/) & [Positronx](https://www.positronx.io/).
+2. Huge thanks to all people involved in creating helpful content that can be found online i.e. [Brad Traversy](https://github.com/bradtraversy), especially for his [Git crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc) and all participants and creators of ).
 
 Big thank you to [Code Institute](https://codeinstitute.net/) tutors for amazing course content that is very helpful in getting to understand the concept of HTML and CSS and to students current and past for sharing their work, ideas and opinions on Slack application - this gave me a lot of inspiration and help when in doubt about something. Especially Anthony O'Brien and [this](https://auxfuse.github.io/userCentricResourcePack/) extremely helpful resource pack & Ann Greaves and her amazing Bootstrap grid [tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU&t=539s).
 
