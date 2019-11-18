@@ -168,19 +168,19 @@ Deploying this page from GitHub repository to GitHub Pages was achieved by follo
 7. Scrolling back down to the GitHub Pages section to check/retrieve the link of newly deployed website
 
 ### How to run this project locally
-This project was developed using the Visual Studio Code IDE, committed to Git and pushed to GitHub.
+To clone this project from this repository following steps need to be taken:
 
-To clone this project from GitHub following steps need to be taken:
-
-1. Follow this [link](https://github.com/malc-u/petes-plumbing) to the Project GitHub repository
+1. Scroll up to the repository section on this page
 2. Click "Clone or download"(green button on the right hand side, just above the file list) - this will open "Clone with HTTPS" section
 3. Copy the clone URL for the repository from "Clone with HTTPS" section
 4. Open your local IDE
-5. Open Git Bash in your local IDE
+5. Open your favourite terminal (e.g. in your local IDE)
 6. Change the current working directory to the location where you want the cloned directory to be
 7. Type git clone, and then paste the URL you copied in Step 3 - in this project the comant should be:
 
+```
 	git clone https://github.com/malc-u/petes-plumbing.git
+```
 
 8. Press Enter to create your local clone 
 
