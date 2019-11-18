@@ -192,7 +192,7 @@ The content of this page was entirely written by myself and consulted with the c
 1. Navbar collapsing on click - thanks to jQuery posted by [Zim developer](https://stackoverflow.com/users/171456/zim) [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
 2. Testimonial carousel used for reviews found [here](https://www.nicesnippets.com/snippet/bootstrap-4-testimonials-or-people-review-slider)
 3. Photo on welcome/home page taken by Pete's plumbing & gas Ltd
-4. Photo on About section taken from Pexels - [Skitterphoto](https://www.pexels.com/@skitterphoto) and [Pixabay](https://
+4. Photo on About section taken from Pexels - [Skitterphoto](https://www.pexels.com/@skitterphoto) and [Pixabay](https://www.pexels.com/@pixabay)
 5. Photo/avatars for testimonial carousel found [here](https://pixabay.com/users/roverhate-1759589/)
 6. Fonts, some styling, buttons etc. were imported from [Journal](https://bootswatch.com/journal/) theme on Bootswatch
 7. Testimonials slide - sourced from [Nicesnippets](https://www.nicesnippets.com/snippet/bootstrap-4-testimonials-or-people-review-slider)
