@@ -41,22 +41,22 @@ This project utilises Bootstrap framework and Bootswatch Journal theme as a base
 Although there is a contact form within this page it will not work as there are no back end functions incorporated in the code.
 
 ### Existing features
-- Navigation bar - fixed and responsive
-- Logo - clicked navigates to the home/top page
-- Social media links in the navigation bar - clicked open another tab with business' social media pages where reviews are clearly visible
-- Slogan/head word on each section of the page presenting business in more detail
-- Home page/Welcome picture - picture of actual person that will meet customers on the job - adding credibility to the business 
-- Button [Book free inspection] on the bottom of each section of this website - takes users that wish to get in touch with company directly to the contact section
-- Additional button on the bottom of each section of this website allowing customers to scroll to the next section to find out more about the company
-- Services grouped in 3 main fields - to allow website user to find what company is offering easier
-- Link to Gas Safe Register page in About section - advises that company is legitimate and can legally work with gas appliances - Gas Safe Register number clickable
-- Reviews - 3 recent ones-  grouped and displayed in a carousel form - About section
-- FAQ section advises what to do in emergency situation with end step being call to action for a website user - phone number provided - clickable button format - gets users directly to phone call screen with company number already pre-entered
-- Contact section - presents phone number and email address as well as contact form allowing website users to choose for the business to get in touch with them. Email address is presented in clickable form that gets users directly to their default email application in order to get in touch with the company
-- Contact form has got all fields set as required - allows customer to provide all data required by the business to get in touch with them regarding booking free inspection etc.
-- Footer - provides legal info of the company as well as links to company's social media
-- Clickable phone icon - in the footer section - that gets users directly to phone call screen with company number already pre-entered
-- Clickable email icon - in the footer section - that gets users directly to their default email application in order to get in touch with the company
+- **Navigation bar** - fixed and responsive
+- **Logo** - clicked navigates to the home/top page
+- **Social media links** in the navigation bar - clicked open another tab with business' social media pages where reviews are clearly visible
+- **Slogan/head word** on each section of the page presenting business in more detail
+- **Home page/Welcome picture** - picture of actual person that will meet customers on the job - adding credibility to the business 
+- **Button [Book free inspection]** on the bottom of each section of this website - takes users that wish to get in touch with company directly to the contact section
+- **Additional button** on the bottom of each section of this website allowing customers to scroll to the next section to find out more about the company
+- **Services** grouped in 3 main fields - to allow website user to find what company is offering easier
+- **Link to Gas Safe Register** page in About section - advises that company is legitimate and can legally work with gas appliances - Gas Safe Register number clickable
+- **Reviews** - 3 recent ones-  grouped and displayed in a carousel form - About section
+- **FAQ section** advises what to do in emergency situation with **end step - call to action** for a website user - phone number provided - **clickable button** format - gets users directly to phone call screen with company number already pre-entered
+- **Contact** section - presents **phone number** and **email** address as well as **contact form** allowing website users to choose for the business to get in touch with them. **Email** address is presented in **clickable** form that gets users directly to their default email application in order to get in touch with the company
+- **Contact form** has got **all fields** set as **required** - allows customer to provide all data required by the business to get in touch with them regarding booking free inspection etc.
+- **Footer** - provides legal info of the company as well as links to company's social media
+- **Clickable phone icon** - in the footer section - that gets users directly to phone call screen with company number already pre-entered
+- **Clickable email icon** - in the footer section - that gets users directly to their default email application in order to get in touch with the company
 - All links described for audio description/screen reading purposes
 
 ### Potential features to implement later
